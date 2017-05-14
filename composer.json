@@ -10,9 +10,6 @@
             "email": "stas@vertilia.com"
         }
     ],
-    "require": {
-        "php": "^5.6"
-    },
     "suggest": {
         "ext-json": "To allow for JSON response generation in JsonResponse class",
         "ext-mbstring": "To support multibyte handling in Nls class and values escaping in DbEntity class",
