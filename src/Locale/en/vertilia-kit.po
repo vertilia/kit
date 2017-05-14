@@ -1,0 +1,2920 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contraxor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-11 16:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Stas Trefilov <stas.trefilov@gmail.com>\n"
+"Language-Team: Vertilia <stas@vertilia.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: pget:1c,2;nget:1,2;pnget:1c,2,3;noop:1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#~ msgid "Unhandled method"
+#~ msgstr "Unhandled method"
+
+#~ msgid "Wrong contract id"
+#~ msgstr "Wrong contract id"
+
+#~ msgid "Unknown ressource requested"
+#~ msgstr "Unknown ressource requested"
+
+#~ msgid "Company name"
+#~ msgstr "Company name"
+
+#~ msgid "Legal company name to appear in contracts and invoices"
+#~ msgstr "Legal company name to appear in contracts and invoices"
+
+#~ msgid "Company"
+#~ msgstr "Company"
+
+#~ msgid "Owner"
+#~ msgstr "Owner"
+
+#~ msgid "Owner type"
+#~ msgstr "Owner type"
+
+#~ msgid "provider"
+#~ msgstr "provider"
+
+#~ msgid "client"
+#~ msgstr "client"
+
+#~ msgctxt "provider"
+#~ msgid "pr"
+#~ msgstr "pr"
+
+#~ msgctxt "client"
+#~ msgid "cl"
+#~ msgstr "cl"
+
+#~ msgid "Reference No."
+#~ msgstr "Reference No."
+
+#~ msgid "Ref."
+#~ msgstr "Ref."
+
+#~ msgctxt "contract"
+#~ msgid "Validated"
+#~ msgstr "Validated"
+
+#~ msgctxt "contract validated"
+#~ msgid "Val."
+#~ msgstr "Val."
+
+#~ msgctxt "contract"
+#~ msgid "Last updated"
+#~ msgstr "Last updated"
+
+#~ msgctxt "contract updated"
+#~ msgid "Upd."
+#~ msgstr "Upd."
+
+#~ msgctxt "contract"
+#~ msgid "Begins on"
+#~ msgstr "Begins on"
+
+#~ msgid "From"
+#~ msgstr "From"
+
+#~ msgctxt "contract"
+#~ msgid "Ends on"
+#~ msgstr "Ends on"
+
+#~ msgid "Till"
+#~ msgstr "Till"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Client"
+#~ msgstr "Client"
+
+#~ msgid "Provider"
+#~ msgstr "Provider"
+
+#~ msgid "Roles"
+#~ msgstr "Roles"
+
+#~ msgid "consultant"
+#~ msgstr "consultant"
+
+#~ msgid "project manager"
+#~ msgstr "project manager"
+
+#~ msgid "accountant"
+#~ msgstr "accountant"
+
+#~ msgctxt "consultant"
+#~ msgid "cn"
+#~ msgstr "cn"
+
+#~ msgctxt "project manager"
+#~ msgid "pm"
+#~ msgstr "pm"
+
+#~ msgctxt "accountant"
+#~ msgid "ac"
+#~ msgstr "ac"
+
+#~ msgid "Currency"
+#~ msgstr "Currency"
+
+#~ msgid "VAT"
+#~ msgstr "VAT"
+
+#~ msgid "ex: enter <code>20</code> to indicate a 20% V.A.T."
+#~ msgstr "ex: enter <code>20</code> to indicate a 20% V.A.T."
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Price"
+#~ msgstr "Price"
+
+#~ msgid "Invoice unit"
+#~ msgstr "Invoice unit"
+
+#~ msgid "year"
+#~ msgstr "year"
+
+#~ msgid "month"
+#~ msgstr "month"
+
+#~ msgid "week"
+#~ msgstr "week"
+
+#~ msgid "day"
+#~ msgstr "day"
+
+#~ msgid "hour"
+#~ msgstr "hour"
+
+#~ msgid "piece"
+#~ msgstr "piece"
+
+#~ msgid "Recipient"
+#~ msgstr "Recipient"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "timesheet"
+#~ msgstr "timesheet"
+
+#~ msgid "invoice"
+#~ msgstr "invoice"
+
+#~ msgid "contract"
+#~ msgstr "contract"
+
+#~ msgid "Periodicity"
+#~ msgstr "Periodicity"
+
+#~ msgid "Y."
+#~ msgstr "Y."
+
+#~ msgid "M."
+#~ msgstr "M."
+
+#~ msgid "W."
+#~ msgstr "W."
+
+#~ msgid "D."
+#~ msgstr "D."
+
+#~ msgid "Frequency"
+#~ msgstr "Frequency"
+
+#~ msgid "Freq."
+#~ msgstr "Freq."
+
+#~ msgid "Next notification"
+#~ msgstr "Next notification"
+
+#~ msgctxt "notification"
+#~ msgid "Next"
+#~ msgstr "Next"
+
+#~ msgid "Auto add"
+#~ msgstr "Auto add"
+
+#~ msgid "Auto"
+#~ msgstr "Auto"
+
+#~ msgid "creates and modifies contract, controls timesheets and invoices"
+#~ msgstr "creates and modifies contract, controls timesheets and invoices"
+
+#~ msgid "fills timesheets"
+#~ msgstr "fills timesheets"
+
+#~ msgid "validates contract and timesheets, views invoices"
+#~ msgstr "validates contract and timesheets, views invoices"
+
+#~ msgid "validates timesheets"
+#~ msgstr "validates timesheets"
+
+#~ msgid "receives invoices"
+#~ msgstr "receives invoices"
+
+#~ msgid "validates contract, controls timesheets and invoices"
+#~ msgstr "validates contract, controls timesheets and invoices"
+
+#~ msgid "creates and modifies contract, validates timesheets, views invoices"
+#~ msgstr "creates and modifies contract, validates timesheets, views invoices"
+
+#~ msgid "years"
+#~ msgstr "years"
+
+#~ msgid "months"
+#~ msgstr "months"
+
+#~ msgid "weeks"
+#~ msgstr "weeks"
+
+#~ msgid "days"
+#~ msgstr "days"
+
+#~ msgid "hours"
+#~ msgstr "hours"
+
+#~ msgid "pieces"
+#~ msgstr "pieces"
+
+#~ msgid "yearly"
+#~ msgstr "yearly"
+
+#~ msgid "monthly"
+#~ msgstr "monthly"
+
+#~ msgid "weekly"
+#~ msgstr "weekly"
+
+#~ msgid "daily"
+#~ msgstr "daily"
+
+#~ msgid "hourly"
+#~ msgstr "hourly"
+
+#~ msgid "per piece"
+#~ msgstr "per piece"
+
+#~ msgid "%sy"
+#~ msgstr "%sy"
+
+#~ msgid "%sm"
+#~ msgstr "%sm"
+
+#~ msgid "%sw"
+#~ msgstr "%sw"
+
+#~ msgid "%sd"
+#~ msgstr "%sd"
+
+#~ msgid "%sh"
+#~ msgstr "%sh"
+
+#~ msgid "%sp"
+#~ msgstr "%sp"
+
+#~ msgid "Short description of the contract"
+#~ msgstr "Short description of the contract"
+
+#~ msgid ""
+#~ "Default values for currency and tax fields may be defined in "
+#~ "Administration module"
+#~ msgstr ""
+#~ "Default values for currency and tax fields may be defined in "
+#~ "Administration module"
+
+#~ msgid ""
+#~ "<p>Schedule defines how actors are notified about specific deadlines.</"
+#~ "p>\n"
+#~ "<p>Every reminder contains:</p>\n"
+#~ "<ul><li>notification <b>recipient</b>,\n"
+#~ "<li><b>type</b> of reminder (consultants are normally notified to create\n"
+#~ "timesheets, providers -- to make out an invoice, contract owners -- to "
+#~ "renew\n"
+#~ "contracts),\n"
+#~ "<li>reminder <b>periodicity</b> (combination of two parameters, frequency "
+#~ "and\n"
+#~ "time frame, which describes how often the reminder appears. Available "
+#~ "time\n"
+#~ "frames are: <b>Y</b>ear, <b>M</b>onth, <b>W</b>eek, <b>D</b>ay. For "
+#~ "example,\n"
+#~ "<code>1 M[onth]</code> will cast the reminders the same day each month,\n"
+#~ "<code>4 W[eek]</code> will send reminders in 28-day intervals,\n"
+#~ "<code>15 D[ay]</code> reminds every 15 days),\n"
+#~ "<li><b>next date</b> (the date indicating when the next reminder will be "
+#~ "sent.\n"
+#~ "Each time a reminder is sent this date is incremented by <b>periodicity</"
+#~ "b>),\n"
+#~ "<li><b>auto add</b> indicator (whether a new timesheet will be appended "
+#~ "to the\n"
+#~ "last validated one, a new invoice created with not yet invoiced "
+#~ "validated\n"
+#~ "timesheets, or a new contract created by duplicating the current one and\n"
+#~ "changing dates of begin / end).\n"
+#~ "</ul>"
+#~ msgstr ""
+#~ "<p>Schedule defines how actors are notified about specific deadlines.</"
+#~ "p>\n"
+#~ "<p>Every reminder contains:</p>\n"
+#~ "<ul><li>notification <b>recipient</b>,\n"
+#~ "<li><b>type</b> of reminder (consultants are normally notified to create\n"
+#~ "timesheets, providers -- to make out an invoice, contract owners -- to "
+#~ "renew\n"
+#~ "contracts),\n"
+#~ "<li>reminder <b>periodicity</b> (combination of two parameters, frequency "
+#~ "and\n"
+#~ "time frame, which describes how often the reminder appears. Available "
+#~ "time\n"
+#~ "frames are: <b>Y</b>ear, <b>M</b>onth, <b>W</b>eek, <b>D</b>ay. For "
+#~ "example,\n"
+#~ "<code>1 M[onth]</code> will cast the reminders the same day each month,\n"
+#~ "<code>4 W[eek]</code> will send reminders in 28-day intervals,\n"
+#~ "<code>15 D[ay]</code> reminds every 15 days),\n"
+#~ "<li><b>next date</b> (the date indicating when the next reminder will be "
+#~ "sent.\n"
+#~ "Each time a reminder is sent this date is incremented by <b>periodicity</"
+#~ "b>),\n"
+#~ "<li><b>auto add</b> indicator (whether a new timesheet will be appended "
+#~ "to the\n"
+#~ "last validated one, a new invoice created with not yet invoiced "
+#~ "validated\n"
+#~ "timesheets, or a new contract created by duplicating the current one and\n"
+#~ "changing dates of begin / end).\n"
+#~ "</ul>"
+
+#~ msgid "Key"
+#~ msgstr "Key"
+
+#~ msgid "Contract"
+#~ msgstr "Contract"
+
+#~ msgid "Issue date"
+#~ msgstr "Issue date"
+
+#~ msgctxt "invoice"
+#~ msgid "Issued"
+#~ msgstr "Issued"
+
+#~ msgid "Due date"
+#~ msgstr "Due date"
+
+#~ msgctxt "invoice"
+#~ msgid "Due"
+#~ msgstr "Due"
+
+#~ msgid "Amount, V.A.T."
+#~ msgstr "Amount, V.A.T."
+
+#~ msgid "Amount"
+#~ msgstr "Amount"
+
+#~ msgctxt "invoice"
+#~ msgid "Begins on"
+#~ msgstr "Begins on"
+
+#~ msgctxt "invoice"
+#~ msgid "Ends on"
+#~ msgstr "Ends on"
+
+#~ msgctxt "invoice"
+#~ msgid "Closed"
+#~ msgstr "Closed"
+
+#~ msgctxt "invoice closed"
+#~ msgid "Cl."
+#~ msgstr "Cl."
+
+#~ msgid "Price per Unit"
+#~ msgstr "Price per Unit"
+
+#~ msgctxt "price per unit"
+#~ msgid "PPU Net"
+#~ msgstr "PPU Net"
+
+#~ msgid "Quantity"
+#~ msgstr "Quantity"
+
+#~ msgid "Qty"
+#~ msgstr "Qty"
+
+#~ msgid "Rt"
+#~ msgstr "Rt"
+
+#~ msgid "Begin / end dates correspond to the period of provided services."
+#~ msgstr "Begin / end dates correspond to the period of provided services."
+
+#~ msgid "Event"
+#~ msgstr "Event"
+
+#~ msgid "creation"
+#~ msgstr "creation"
+
+#~ msgid "modification"
+#~ msgstr "modification"
+
+#~ msgid "deletion"
+#~ msgstr "deletion"
+
+#~ msgid "validation"
+#~ msgstr "validation"
+
+#~ msgid "invalidation"
+#~ msgstr "invalidation"
+
+#~ msgid "log in"
+#~ msgstr "log in"
+
+#~ msgid "Target type"
+#~ msgstr "Target type"
+
+#~ msgid "Comment"
+#~ msgstr "Comment"
+
+#~ msgid "Organization ID"
+#~ msgstr "Organization ID"
+
+#~ msgid "Organization name"
+#~ msgstr "Organization name"
+
+#~ msgid ""
+#~ "Organization legal name as it appears on contracts, timesheets and "
+#~ "invoices"
+#~ msgstr ""
+#~ "Organization legal name as it appears on contracts, timesheets and "
+#~ "invoices"
+
+#~ msgid "Subscription plan"
+#~ msgstr "Subscription plan"
+
+#~ msgid "Plan"
+#~ msgstr "Plan"
+
+#~ msgid "PRO 5"
+#~ msgstr "PRO 5"
+
+#~ msgid "PRO 10"
+#~ msgstr "PRO 10"
+
+#~ msgid "PRO 50"
+#~ msgstr "PRO 50"
+
+#~ msgid "Enterprise 25"
+#~ msgstr "Enterprise 25"
+
+#~ msgid "Enterprise 100"
+#~ msgstr "Enterprise 100"
+
+#~ msgid "Enterprise Unlimited"
+#~ msgstr "Enterprise Unlimited"
+
+#~ msgid "Subscription status"
+#~ msgstr "Subscription status"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgctxt "status"
+#~ msgid "pending"
+#~ msgstr "pending"
+
+#~ msgctxt "status"
+#~ msgid "accepted"
+#~ msgstr "accepted"
+
+#~ msgctxt "status"
+#~ msgid "rejected"
+#~ msgstr "rejected"
+
+#~ msgctxt "status"
+#~ msgid "cancelled"
+#~ msgstr "cancelled"
+
+#~ msgid "Start date"
+#~ msgstr "Start date"
+
+#~ msgid "End date"
+#~ msgstr "End date"
+
+#~ msgid "Timesheet"
+#~ msgstr "Timesheet"
+
+#~ msgid "Consultant"
+#~ msgstr "Consultant"
+
+#~ msgid "Manager"
+#~ msgstr "Manager"
+
+#~ msgctxt "timesheet"
+#~ msgid "Last updated"
+#~ msgstr "Last updated"
+
+#~ msgctxt "timesheet updated"
+#~ msgid "Upd."
+#~ msgstr "Upd."
+
+#~ msgctxt "timesheet"
+#~ msgid "Begins on"
+#~ msgstr "Begins on"
+
+#~ msgctxt "timesheet"
+#~ msgid "Ends on"
+#~ msgstr "Ends on"
+
+#~ msgctxt "timesheet"
+#~ msgid "Validated"
+#~ msgstr "Validated"
+
+#~ msgctxt "timesheet validated"
+#~ msgid "Val."
+#~ msgstr "Val."
+
+#~ msgid "Validation status"
+#~ msgstr "Validation status"
+
+#~ msgid "Rate"
+#~ msgstr "Rate"
+
+#~ msgid "Nbr. units"
+#~ msgstr "Nbr. units"
+
+#~ msgid "email"
+#~ msgstr "email"
+
+#~ msgid "Last name"
+#~ msgstr "Last name"
+
+#~ msgid "First name"
+#~ msgstr "First name"
+
+#~ msgid "Initials"
+#~ msgstr "Initials"
+
+#~ msgid "Interface language"
+#~ msgstr "Interface language"
+
+#~ msgid "Language"
+#~ msgstr "Language"
+
+#~ msgid "english"
+#~ msgstr "english"
+
+#~ msgid "french"
+#~ msgstr "french"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "Use SSL"
+#~ msgstr "Use SSL"
+
+#~ msgid "stay in SSL mode after sign in"
+#~ msgstr "stay in SSL mode after sign in"
+
+#~ msgid ""
+#~ "whether to stay in SSL mode after sign in (which always uses https "
+#~ "protocol)"
+#~ msgstr ""
+#~ "whether to stay in SSL mode after sign in (which always uses https "
+#~ "protocol)"
+
+#~ msgid "Organization"
+#~ msgstr "Organization"
+
+#~ msgid "User"
+#~ msgstr "User"
+
+#~ msgid "minimum password length is 6 characters"
+#~ msgstr "minimum password length is 6 characters"
+
+#~ msgid ""
+#~ "this password is too popular (for a good password appeal to your "
+#~ "originality)"
+#~ msgstr ""
+#~ "this password is too popular (for a good password appeal to your "
+#~ "originality)"
+
+#~ msgid ""
+#~ "this password is too trivial (for a better password activate your "
+#~ "creativity)"
+#~ msgstr ""
+#~ "this password is too trivial (for a better password activate your "
+#~ "creativity)"
+
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#~ msgid "Administration"
+#~ msgstr "Administration"
+
+#~ msgid "Users"
+#~ msgstr "Users"
+
+#~ msgid "Companies"
+#~ msgstr "Companies"
+
+#~ msgid "Subscription"
+#~ msgstr "Subscription"
+
+#~ msgid "Add organization"
+#~ msgstr "Add organization"
+
+#~ msgid "Hint"
+#~ msgstr "Hint"
+
+#~ msgid "Close"
+#~ msgstr "Close"
+
+#~ msgid ""
+#~ "To create contracts first define companies and then assign managers on <a"
+#~ "%s>Companies</a> tab.\n"
+#~ "Account manager can only create contracts with authorized companies."
+#~ msgstr ""
+#~ "To create contracts first define companies and then assign managers on <a"
+#~ "%s>Companies</a> tab.\n"
+#~ "Account manager can only create contracts with authorized companies."
+
+#~ msgid "Log"
+#~ msgstr "Log"
+
+#~ msgctxt "companies"
+#~ msgid "remove all"
+#~ msgstr "remove all"
+
+#~ msgid "User companies"
+#~ msgstr "User companies"
+
+#~ msgid "click name to remove"
+#~ msgstr "click name to remove"
+
+#~ msgid "empty list"
+#~ msgstr "empty list"
+
+#~ msgctxt "companies"
+#~ msgid "add all"
+#~ msgstr "add all"
+
+#~ msgid "Available companies"
+#~ msgstr "Available companies"
+
+#~ msgid "click name to add"
+#~ msgstr "click name to add"
+
+#~ msgid "company"
+#~ msgid_plural "companies"
+#~ msgstr[0] "company"
+#~ msgstr[1] "companies"
+
+#~ msgctxt "users"
+#~ msgid "remove all"
+#~ msgstr "remove all"
+
+#~ msgid "Account managers"
+#~ msgstr "Account managers"
+
+#~ msgctxt "users"
+#~ msgid "add all"
+#~ msgstr "add all"
+
+#~ msgid "Available users"
+#~ msgstr "Available users"
+
+#~ msgid "manager"
+#~ msgid_plural "managers"
+#~ msgstr[0] "manager"
+#~ msgstr[1] "managers"
+
+#~ msgid "No actors defined"
+#~ msgstr "No actors defined"
+
+#~ msgid "Add actor"
+#~ msgstr "Add actor"
+
+#~ msgid "Add"
+#~ msgstr "Add"
+
+#~ msgid "enter email address or a person lastname"
+#~ msgstr "enter email address or a person last name"
+
+#~ msgid "Save"
+#~ msgstr "Save"
+
+#~ msgid "Delete"
+#~ msgstr "Delete"
+
+#~ msgid "Actor roles"
+#~ msgstr "Actor roles"
+
+#~ msgid "Actor"
+#~ msgstr "Actor"
+
+#~ msgid "Headers"
+#~ msgstr "Headers"
+
+#~ msgctxt "headers ..."
+#~ msgid "Displayed on each page"
+#~ msgstr "Displayed on each page"
+
+#~ msgctxt "on the ..."
+#~ msgid "left"
+#~ msgstr "left"
+
+#~ msgid "Left header"
+#~ msgstr "Left header"
+
+#~ msgctxt "in the ..."
+#~ msgid "center"
+#~ msgstr "center"
+
+#~ msgid "Central header"
+#~ msgstr "Central header"
+
+#~ msgctxt "on the ..."
+#~ msgid "right"
+#~ msgstr "right"
+
+#~ msgid "Right header"
+#~ msgstr "Right header"
+
+#~ msgid "Top attributes"
+#~ msgstr "Top attributes"
+
+#~ msgctxt "attributes ..."
+#~ msgid "Displayed above the invoice lines"
+#~ msgstr "Displayed above the invoice lines"
+
+#~ msgid "Top left attribute"
+#~ msgstr "Top left attribute"
+
+#~ msgid "Top right attribute"
+#~ msgstr "Top right attribute"
+
+#~ msgid "Bottom attributes"
+#~ msgstr "Bottom attributes"
+
+#~ msgctxt "attributes ..."
+#~ msgid "Displayed below the invoice lines"
+#~ msgstr "Displayed below the invoice lines"
+
+#~ msgid "Bottom left attribute"
+#~ msgstr "Bottom left attribute"
+
+#~ msgid "Bottom right attribute"
+#~ msgstr "Bottom right attribute"
+
+#~ msgid "Footers"
+#~ msgstr "Footers"
+
+#~ msgctxt "footers ..."
+#~ msgid "Displayed on each page"
+#~ msgstr "Displayed on each page"
+
+#~ msgid "Left footer"
+#~ msgstr "Left footer"
+
+#~ msgid "Central footer"
+#~ msgstr "Central footer"
+
+#~ msgid "Right footer"
+#~ msgstr "Right footer"
+
+#~ msgid "Erase"
+#~ msgstr "Erase"
+
+#~ msgid "Value"
+#~ msgstr "Value"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "beginning and end dates do not match"
+#~ msgstr "beginning and end dates do not match"
+
+#~ msgid "Add contract"
+#~ msgstr "Add contract"
+
+#~ msgid ""
+#~ "You are the owner of a new contract. Which side do you represent?\n"
+#~ "Select <code>provider</code> if you are providing services to your "
+#~ "client.\n"
+#~ "Select <code>client</code> if you buy services from your provider."
+#~ msgstr ""
+#~ "You are the owner of a new contract. Which side do you represent?\n"
+#~ "Select <code>provider</code> if you are providing services to your "
+#~ "client.\n"
+#~ "Select <code>client</code> if you buy services from your provider."
+
+#~ msgid "Modify contract"
+#~ msgstr "Modify contract"
+
+#~ msgid "No rates defined"
+#~ msgstr "No rates defined"
+
+#~ msgid "Add rate"
+#~ msgstr "Add rate"
+
+#~ msgid "rate plan description"
+#~ msgstr "rate plan description"
+
+#~ msgid ""
+#~ "Deleting rate will also remove all corresponding entries from non-"
+#~ "validated consultant timesheets.\n"
+#~ "Do you want to proceed?"
+#~ msgstr ""
+#~ "Deleting rate will also remove all corresponding entries from non-"
+#~ "validated consultant timesheets.\n"
+#~ "Do you want to proceed?"
+
+#~ msgid "Rate description"
+#~ msgstr "Rate description"
+
+#~ msgid "every year starting on %s"
+#~ msgstr "every year starting on %s"
+
+#~ msgid "every month starting on %s"
+#~ msgstr "every month starting on %s"
+
+#~ msgid "every week starting on %s"
+#~ msgstr "every week starting on %s"
+
+#~ msgid "every %u year starting on %s"
+#~ msgid_plural "every %u years starting on %s"
+#~ msgstr[0] "every %u year starting on %s"
+#~ msgstr[1] "every %u years starting on %s"
+
+#~ msgid "every %u month starting on %s"
+#~ msgid_plural "every %u months starting on %s"
+#~ msgstr[0] "every %u month starting on %s"
+#~ msgstr[1] "every %u months starting on %s"
+
+#~ msgid "every %u week starting on %s"
+#~ msgid_plural "every %u weeks starting on %s"
+#~ msgstr[0] "every %u week starting on %s"
+#~ msgstr[1] "every %u weeks starting on %s"
+
+#~ msgid "No reminders defined"
+#~ msgstr "No reminders defined"
+
+#~ msgid "next date must be in the future"
+#~ msgstr "next date must be in the future"
+
+#~ msgid "Add reminder"
+#~ msgstr "Add reminder"
+
+#~ msgid "select the user from the list of contract actors"
+#~ msgstr "select the user from the list of contract actors"
+
+#~ msgid "Do you want to delete the reminder?"
+#~ msgstr "Do you want to delete the reminder?"
+
+#~ msgid "Reminder details"
+#~ msgstr "Reminder details"
+
+#~ msgctxt "contract"
+#~ msgid "validated on %s"
+#~ msgstr "validated on %s"
+
+#~ msgctxt "contract"
+#~ msgid "validated"
+#~ msgstr "validated"
+
+#~ msgctxt "contract"
+#~ msgid "not validated"
+#~ msgstr "not validated"
+
+#~ msgctxt "on {date} by {name}"
+#~ msgid "on %s by %s"
+#~ msgstr "on %s by %s"
+
+#~ msgctxt "on {date}"
+#~ msgid "on %s"
+#~ msgstr "on %s"
+
+#~ msgid "yes"
+#~ msgstr "yes"
+
+#~ msgid "no"
+#~ msgstr "no"
+
+#~ msgid "Send feedback"
+#~ msgstr "Send feedback"
+
+#~ msgid "Send"
+#~ msgstr "Send"
+
+#~ msgid ""
+#~ "Please do not forget to provide your contact information if you wish to "
+#~ "receive an answer"
+#~ msgstr ""
+#~ "Please do not forget to provide your contact information if you wish to "
+#~ "receive an answer"
+
+#~ msgid "By date"
+#~ msgstr "By date"
+
+#~ msgid "2 months"
+#~ msgstr "2 months"
+
+#~ msgid "6 months"
+#~ msgstr "6 months"
+
+#~ msgid "1 year"
+#~ msgstr "1 year"
+
+#~ msgid "no restriction"
+#~ msgstr "no restriction"
+
+#~ msgid "By role"
+#~ msgstr "By role"
+
+#~ msgid "issue and due dates do not match"
+#~ msgstr "issue and due dates do not match"
+
+#~ msgid "Add invoice"
+#~ msgstr "Add invoice"
+
+#~ msgid "Add invoice line"
+#~ msgstr "Add invoice line"
+
+#~ msgctxt "unit"
+#~ msgid "validated"
+#~ msgstr "validated"
+
+#~ msgctxt "valid"
+#~ msgid "VAL"
+#~ msgstr "VAL"
+
+#~ msgctxt "unit"
+#~ msgid "not validated"
+#~ msgstr "not validated"
+
+#~ msgctxt "not valid"
+#~ msgid "N/V"
+#~ msgstr "N/V"
+
+#~ msgid "No work units added"
+#~ msgstr "No work units added"
+
+#~ msgid "No lines added"
+#~ msgstr "No lines added"
+
+#~ msgid "Do you want to proceed with the deletion of invoice line?"
+#~ msgstr "Do you want to proceed with the deletion of invoice line?"
+
+#~ msgid "Invoice line"
+#~ msgstr "Invoice line"
+
+#~ msgid "Total excl.VAT"
+#~ msgstr "Total excl.VAT"
+
+#~ msgid "Total VAT"
+#~ msgstr "Total VAT"
+
+#~ msgid "Total incl.VAT"
+#~ msgstr "Total incl.VAT"
+
+#~ msgid "Period"
+#~ msgstr "Period"
+
+#~ msgid "TOTAL"
+#~ msgstr "TOTAL"
+
+#~ msgid "validated units"
+#~ msgstr "validated units"
+
+#~ msgid "not validated units"
+#~ msgstr "not validated units"
+
+#~ msgid "INVOICE # %s"
+#~ msgstr "INVOICE # %s"
+
+#~ msgid "CONTRACT # %s"
+#~ msgstr "CONTRACT # %s"
+
+#~ msgid "Price Net"
+#~ msgstr "Price Net"
+
+#~ msgid "Price VAT"
+#~ msgstr "Price VAT"
+
+#~ msgctxt "invoice"
+#~ msgid "closed on %s"
+#~ msgstr "closed on %s"
+
+#~ msgctxt "invoice"
+#~ msgid "closed"
+#~ msgstr "closed"
+
+#~ msgctxt "invoice"
+#~ msgid "not closed"
+#~ msgstr "not closed"
+
+#~ msgctxt "{event} by {user}"
+#~ msgid "%s by %s"
+#~ msgstr "%s by %s"
+
+#~ msgid "undefined operation"
+#~ msgstr "undefined operation"
+
+#~ msgid "No log entries"
+#~ msgstr "No log entries"
+
+#~ msgid "organization created"
+#~ msgstr "organization created"
+
+#~ msgid "organization updated"
+#~ msgstr "organization updated"
+
+#~ msgid "user rights modified"
+#~ msgstr "user rights modified"
+
+#~ msgid "user company added"
+#~ msgstr "user company added"
+
+#~ msgid "all companies added to user"
+#~ msgstr "all companies added to user"
+
+#~ msgid "all users added to company"
+#~ msgstr "all users added to company"
+
+#~ msgid "user company removed"
+#~ msgstr "user company removed"
+
+#~ msgid "all user companies removed"
+#~ msgstr "all user companies removed"
+
+#~ msgid "all company users removed"
+#~ msgstr "all company users removed"
+
+#~ msgid "user removed from organization"
+#~ msgstr "user removed from organization"
+
+#~ msgid "company inserted"
+#~ msgstr "company inserted"
+
+#~ msgid "company updated"
+#~ msgstr "company updated"
+
+#~ msgid "company deleted"
+#~ msgstr "company deleted"
+
+#~ msgid "contract created"
+#~ msgstr "contract created"
+
+#~ msgid "contract updated"
+#~ msgstr "contract updated"
+
+#~ msgid "validation requested"
+#~ msgstr "validation requested"
+
+#~ msgid "contract validated"
+#~ msgstr "contract validated"
+
+#~ msgid "contract unlocked"
+#~ msgstr "contract unlocked"
+
+#~ msgid "rate added"
+#~ msgstr "rate added"
+
+#~ msgid "rate updated"
+#~ msgstr "rate updated"
+
+#~ msgid "rate deleted"
+#~ msgstr "rate deleted"
+
+#~ msgid "actor added"
+#~ msgstr "actor added"
+
+#~ msgid "actor updated"
+#~ msgstr "actor updated"
+
+#~ msgid "actor deleted"
+#~ msgstr "actor deleted"
+
+#~ msgid "reminder added"
+#~ msgstr "reminder added"
+
+#~ msgid "reminder updated"
+#~ msgstr "reminder updated"
+
+#~ msgid "reminder deleted"
+#~ msgstr "reminder deleted"
+
+#~ msgid "comment added"
+#~ msgstr "comment added"
+
+#~ msgid "timesheet created"
+#~ msgstr "timesheet created"
+
+#~ msgid "timesheet updated"
+#~ msgstr "timesheet updated"
+
+#~ msgid "timesheet validated"
+#~ msgstr "timesheet validated"
+
+#~ msgid "timesheet unlocked"
+#~ msgstr "timesheet unlocked"
+
+#~ msgid "work unit added"
+#~ msgstr "work unit added"
+
+#~ msgid "work unit updated"
+#~ msgstr "work unit updated"
+
+#~ msgid "work unit deleted"
+#~ msgstr "work unit deleted"
+
+#~ msgid "timesheet auto-filled"
+#~ msgstr "timesheet auto-filled"
+
+#~ msgid "rate units deleted"
+#~ msgstr "rate units deleted"
+
+#~ msgid "invoice created"
+#~ msgstr "invoice created"
+
+#~ msgid "invoice updated"
+#~ msgstr "invoice updated"
+
+#~ msgid "invoice closed"
+#~ msgstr "invoice closed"
+
+#~ msgid "invoice unlocked"
+#~ msgstr "invoice unlocked"
+
+#~ msgid "units added"
+#~ msgstr "units added"
+
+#~ msgid "units deleted"
+#~ msgstr "units deleted"
+
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "personal"
+#~ msgstr "personal"
+
+#~ msgid "add organization"
+#~ msgstr "add organization"
+
+#~ msgid "Logout"
+#~ msgstr "Logout"
+
+#~ msgid "Sign up"
+#~ msgstr "Sign up"
+
+#~ msgid "Sign in"
+#~ msgstr "Sign in"
+
+#~ msgid "No comments"
+#~ msgstr "No comments"
+
+#~ msgid "Add comment"
+#~ msgstr "Add comment"
+
+#~ msgid "Comments"
+#~ msgstr "Comments"
+
+#~ msgid "Currency to use by default in contracts"
+#~ msgstr "Currency to use by default in contracts"
+
+#~ msgid ""
+#~ "Default value of VAT in contracts and invoices. Ex: enter <code>20</code> "
+#~ "to indicate a 20% V.A.T."
+#~ msgstr ""
+#~ "Default value of V.A.T. in contracts and invoices. Ex: enter <code>20</"
+#~ "code> to indicate a 20% V.A.T."
+
+#~ msgid "Attention"
+#~ msgstr "Attention"
+
+#~ msgid ""
+#~ "This organization subscription has not yet expired (expiration date: "
+#~ "%s).\n"
+#~ "If you delete the organization now all corresponding credits will be lost!"
+#~ msgstr ""
+#~ "This organization subscription has not yet expired (expiration date: "
+#~ "%s).\n"
+#~ "If you delete the organization now all corresponding credits will be lost!"
+
+#~ msgid "Deletion of %s"
+#~ msgstr "Deletion of %s"
+
+#~ msgid ""
+#~ "<p>The organization will be deleted together with declared companies. "
+#~ "Current organization users will be dissociated\n"
+#~ "from the organization.</p>\n"
+#~ "<p><b>Please note:</b> if contracts were created for the organization the "
+#~ "deletion will be cancelled.</p>"
+#~ msgstr ""
+#~ "<p>The organization will be deleted together with declared companies. "
+#~ "Current organization users will be dissociated\n"
+#~ "from the organization.</p>\n"
+#~ "<p><b>Please note:</b> if contracts were created for the organization the "
+#~ "deletion will be cancelled.</p>"
+
+#~ msgid "Modify organization"
+#~ msgstr "Modify organization"
+
+#~ msgid "Data validation error"
+#~ msgstr "Data validation error"
+
+#~ msgid "Please provide information for these required fields"
+#~ msgstr "Please provide information for these required fields"
+
+#~ msgid "Correct the following issues"
+#~ msgstr "Correct the following issues"
+
+#~ msgid "Communication error"
+#~ msgstr "Communication error"
+
+#~ msgid ""
+#~ "Error occured while communicating with the server. You may check your "
+#~ "connection and retry your request later."
+#~ msgstr ""
+#~ "Error occured while communicating with the server. You may check your "
+#~ "connection and retry your request later."
+
+#~ msgid "Server error"
+#~ msgstr "Server error"
+
+#~ msgid ""
+#~ "An unknown error occured on the server while handling your request. You "
+#~ "may try to reformulate the request before resubmitting."
+#~ msgstr ""
+#~ "An unknown error occured on the server while handling your request. You "
+#~ "may try to reformulate the request before resubmitting."
+
+#~ msgid "%u day"
+#~ msgid_plural "%u days"
+#~ msgstr[0] "%u day"
+#~ msgstr[1] "%u days"
+
+#~ msgid "Expires in"
+#~ msgstr "Expires in"
+
+#~ msgid ""
+#~ "The lists of contract consultants and project managers are defined by "
+#~ "contract owner. These lists may be modified even for validated contracts."
+#~ msgstr ""
+#~ "The lists of contract consultants and project managers are defined by "
+#~ "contract owner. These lists may be modified even for validated contracts."
+
+#~ msgid "Project manager email"
+#~ msgstr "Project manager email"
+
+#~ msgid ""
+#~ "Project managers from previous timesheets are used in auto-completion."
+#~ msgstr ""
+#~ "Project managers from previous timesheets are used in auto-completion."
+
+#~ msgid "Add timesheet"
+#~ msgstr "Add timesheet"
+
+#~ msgid "List of timesheets"
+#~ msgstr "List of timesheets"
+
+#~ msgid "%s <small>%s for %s, %s</small>"
+#~ msgstr "%s <small>%s for %s, %s</small>"
+
+#~ msgid "on %s by %s"
+#~ msgstr "on %s by %s"
+
+#~ msgid "on %s"
+#~ msgstr "on %s"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Timesheet Validation"
+#~ msgstr "Timesheet Validation"
+
+#~ msgid ""
+#~ "To manage profile data you need to <a%s>sign in</a> or <a%s>create an "
+#~ "account</a> first."
+#~ msgstr ""
+#~ "To manage profile data you need to <a%s>sign in</a> or <a%s>create an "
+#~ "account</a> first."
+
+#~ msgid "Access denied"
+#~ msgstr "Access denied"
+
+#~ msgid "Visitor access denied"
+#~ msgstr "Visitor access denied"
+
+#~ msgid "return to <a%s>home page</a>"
+#~ msgstr "return to <a%s>home page</a>"
+
+#~ msgid "<a%s>sign in</a>"
+#~ msgstr "<a%s>sign in</a>"
+
+#~ msgid "You must be identified to access this page"
+#~ msgstr "You must be identified to access this page"
+
+#~ msgid "Required permissions are missing"
+#~ msgstr "Required permissions are missing"
+
+#~ msgid ""
+#~ "you do not have enough permissions to execute this "
+#~ "operation<br><small>Contact your organization's administrator to get "
+#~ "access rights</small>"
+#~ msgstr ""
+#~ "you do not have enough permissions to execute this "
+#~ "operation<br><small>Contact your organization's administrator to get "
+#~ "access rights</small>"
+
+#~ msgid "Add company"
+#~ msgstr "Add company"
+
+#~ msgid "Modify company"
+#~ msgstr "Modify company"
+
+#~ msgid "company is unavailable"
+#~ msgstr "company is unavailable"
+
+#~ msgid "Delete company"
+#~ msgstr "Delete company"
+
+#~ msgid "cannot delete company with existing contracts"
+#~ msgstr "cannot delete company with existing contracts"
+
+#~ msgid "Company operation"
+#~ msgstr "Company operation"
+
+#~ msgid "you cannot modify companies of this organization"
+#~ msgstr "you cannot modify companies of this organization"
+
+#~ msgid "error adding company"
+#~ msgstr "error adding company"
+
+#~ msgid "error modifying company"
+#~ msgstr "error modifying company"
+
+#~ msgid "error deleting company"
+#~ msgstr "error deleting company"
+
+#~ msgid "you cannot add organizations"
+#~ msgstr "you cannot add organizations"
+
+#~ msgid "you cannot modify this organization"
+#~ msgstr "you cannot modify this organization"
+
+#~ msgid "organization is unavailable"
+#~ msgstr "organization is unavailable"
+
+#~ msgid "Delete organization"
+#~ msgstr "Delete organization"
+
+#~ msgid "you cannot delete this organization"
+#~ msgstr "you cannot delete this organization"
+
+#~ msgid "%u contract is declared for this organization (%s)"
+#~ msgid_plural "%u contracts are declared for this organization (%s)"
+#~ msgstr[0] "%u contract is declared for this organization (%s)"
+#~ msgstr[1] "%u contracts are declared for this organization (%s)"
+
+#~ msgid "first delete all organization contracts"
+#~ msgstr "first delete all organization contracts"
+
+#~ msgid "Organization operation"
+#~ msgstr "Organization operation"
+
+#~ msgid "error updating user profile"
+#~ msgstr "error updating user profile"
+
+#~ msgid "error adding organization"
+#~ msgstr "error adding organization"
+
+#~ msgid "error modifying organization"
+#~ msgstr "error modifying organization"
+
+#~ msgid "error deleting organization"
+#~ msgstr "error deleting organization"
+
+#~ msgid "user profile is unavailable"
+#~ msgstr "user profile is unavailable"
+
+#~ msgid "User companies operation"
+#~ msgstr "User companies operation"
+
+#~ msgid "you cannot modify company data in this organization"
+#~ msgstr "you cannot modify company data in this organization"
+
+#~ msgid "Add user"
+#~ msgstr "Add user"
+
+#~ msgid "cannot access user profile data"
+#~ msgstr "cannot access user profile data"
+
+#~ msgid "Modify user flag"
+#~ msgstr "Modify user flag"
+
+#~ msgid ""
+#~ "you cannot inactivate your own profile (hint: ask another administrator "
+#~ "to inactivate your profile)"
+#~ msgstr ""
+#~ "you cannot inactivate your own profile (hint: ask another administrator "
+#~ "to inactivate your profile)"
+
+#~ msgid ""
+#~ "you cannot remove administration rights from your own profile (hint: ask "
+#~ "another administrator to remove your rights)"
+#~ msgstr ""
+#~ "you cannot remove administration rights from your own profile (hint: ask "
+#~ "another administrator to remove your rights)"
+
+#~ msgid ""
+#~ "you cannot remove yourself from the organization (hint: ask another "
+#~ "administrator to remove your profile)"
+#~ msgstr ""
+#~ "you cannot remove yourself from the organization (hint: ask another "
+#~ "administrator to remove your profile)"
+
+#~ msgid "User administration operation"
+#~ msgstr "User administration operation"
+
+#~ msgid "you cannot modify user data in this organization"
+#~ msgstr "you cannot modify user data in this organization"
+
+#~ msgid "error updating user flags"
+#~ msgstr "error updating user flags"
+
+#~ msgid "error registering new email address, please resubmit your request"
+#~ msgstr "error registering new email address, please resubmit your request"
+
+#~ msgid "error adding user to the organization"
+#~ msgstr "error adding user to the organization"
+
+#~ msgid "error removing user from the organization"
+#~ msgstr "error removing user from the organization"
+
+#~ msgid "Modify"
+#~ msgstr "Modify"
+
+#~ msgid "You are going to delete company <b></b> from the organization."
+#~ msgstr "You are going to delete company <b></b> from the organization."
+
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#~ msgid "Basic organization parameters"
+#~ msgstr "Basic organization parameters"
+
+#~ msgid "Current status"
+#~ msgstr "Current status"
+
+#~ msgid "Description of your organization subscription"
+#~ msgstr "Description of your organization subscription"
+
+#~ msgid "me"
+#~ msgstr "me"
+
+#~ msgid "Activity"
+#~ msgstr "Activity"
+
+#~ msgid "Remove"
+#~ msgstr "Remove"
+
+#~ msgid "email of a person to add to the organization"
+#~ msgstr "email of a person to add to the organization"
+
+#~ msgid "Remove user"
+#~ msgstr "Remove user"
+
+#~ msgid "You are going to remove the user <b></b> from the organization."
+#~ msgstr "You are going to remove the user <b></b> from the organization."
+
+#~ msgid "wrong password provided"
+#~ msgstr "wrong password provided"
+
+#~ msgid "Wrong password provided, page will be reloaded"
+#~ msgstr "Wrong password provided, page will be reloaded"
+
+#~ msgid "Too many login attempts, captcha will be activated"
+#~ msgstr "Too many login attempts, captcha will be activated"
+
+#~ msgid "empty captcha provided"
+#~ msgstr "empty captcha provided"
+
+#~ msgid "wrong captcha provided, page will be reloaded"
+#~ msgstr "wrong captcha provided, page will be reloaded"
+
+#~ msgid "Captcha is expired, page will be reloaded"
+#~ msgstr "Captcha is expired, page will be reloaded"
+
+#~ msgid ""
+#~ "user inactivated (see this issue with your organization's administrator)"
+#~ msgstr ""
+#~ "user inactivated (see this issue with your organization's administrator)"
+
+#~ msgid "Logout command"
+#~ msgstr "Logout command"
+
+#~ msgid "Password restore"
+#~ msgstr "Password restore"
+
+#~ msgid "Lost password confirmation"
+#~ msgstr "Lost password confirmation"
+
+#~ msgid "error creating confirmation email"
+#~ msgstr "error creating confirmation email"
+
+#~ msgid "error sending confirmation email"
+#~ msgstr "error sending confirmation email"
+
+#~ msgid ""
+#~ "A password restore link was sent to the address %s.\n"
+#~ "Please check your inbox and follow the instructions in the message to "
+#~ "validate this action."
+#~ msgstr ""
+#~ "A password restore link was sent to the address %s.\n"
+#~ "Please check your inbox and follow the instructions in the message to "
+#~ "validate this action."
+
+#~ msgid "cannot find user profile corresponding to this email"
+#~ msgstr "cannot find user profile corresponding to this email"
+
+#~ msgid "this key has already been activated"
+#~ msgstr "this key has already been activated"
+
+#~ msgid "this key has expired, please resubmit your original request"
+#~ msgstr "this key has expired, please resubmit your original request"
+
+#~ msgid "this key does not allow password restore"
+#~ msgstr "this key does not allow password restore"
+
+#~ msgid "provided key was not found"
+#~ msgstr "provided key was not found"
+
+#~ msgid "Confirmation"
+#~ msgstr "Confirmation"
+
+#~ msgid "confirmation must match your password"
+#~ msgstr "confirmation must match your password"
+
+#~ msgid ""
+#~ "this email address is already registered<br>\n"
+#~ "<small>If you forgot your password you may use password recovery "
+#~ "functionality available on\n"
+#~ "<a%s>Sign in page</a></small>"
+#~ msgstr ""
+#~ "this email address is already registered<br>\n"
+#~ "<small>If you forgot your password you may use password recovery "
+#~ "functionality available on\n"
+#~ "<a%s>Sign in page</a></small>"
+
+#~ msgid "Create a new user account"
+#~ msgstr "Create a new user account"
+
+#~ msgid "error creating new user record"
+#~ msgstr "error creating new user record"
+
+#~ msgid ""
+#~ "We have just sent you a confirmation email.\n"
+#~ "Please check your inbox and follow the instructions in the message to "
+#~ "validate this action."
+#~ msgstr ""
+#~ "We have just sent you a confirmation email.\n"
+#~ "Please check your inbox and follow the instructions in the message to "
+#~ "validate this action."
+
+#~ msgid ""
+#~ "this key does not allow user creation, please resubmit your original "
+#~ "request"
+#~ msgstr ""
+#~ "this key does not allow user creation, please resubmit your original "
+#~ "request"
+
+#~ msgid "user inactivated on creation"
+#~ msgstr "user inactivated on creation"
+
+#~ msgid ""
+#~ "Welcome to Timesheet Validation service! We have just created your user "
+#~ "account.\n"
+#~ "You will be redirected to your profile page in a moment."
+#~ msgstr ""
+#~ "Welcome to Timesheet Validation service! We have just created your user "
+#~ "account.\n"
+#~ "You will be redirected to your profile page in a moment."
+
+#~ msgid "error creating new user profile"
+#~ msgstr "error creating new user profile"
+
+#~ msgid "Actors list"
+#~ msgstr "Actors list"
+
+#~ msgid "you cannot access this contract"
+#~ msgstr "you cannot access this contract"
+
+#~ msgid "you cannot create new contracts"
+#~ msgstr "you cannot create new contracts"
+
+#~ msgid "your organization is not specified"
+#~ msgstr "your organization is not specified"
+
+#~ msgid "you are not authorized to create contracts with this company"
+#~ msgstr "you are not authorized to create contracts with this company"
+
+#~ msgid "please contact the administrator of your organization"
+#~ msgstr "please contact the administrator of your organization"
+
+#~ msgid "you cannot modify this contract"
+#~ msgstr "you cannot modify this contract"
+
+#~ msgid "Delete contract"
+#~ msgstr "Delete contract"
+
+#~ msgid "you cannot delete this contract"
+#~ msgstr "you cannot delete this contract"
+
+#~ msgid "Validate contract"
+#~ msgstr "Validate contract"
+
+#~ msgid "you cannot validate this contract"
+#~ msgstr "you cannot validate this contract"
+
+#~ msgid ""
+#~ "this contract has just been modified, please <a%s>reload the page</a> to "
+#~ "consult the newer version"
+#~ msgstr ""
+#~ "this contract has just been modified, please <a%s>reload the page</a> to "
+#~ "consult the newer version"
+
+#~ msgid "Unlock contract"
+#~ msgstr "Unlock contract"
+
+#~ msgid "you cannot unlock this contract"
+#~ msgstr "you cannot unlock this contract"
+
+#~ msgid "Contract operation"
+#~ msgstr "Contract operation"
+
+#~ msgid "error adding new contract"
+#~ msgstr "error adding new contract"
+
+#~ msgid "error modifying contract"
+#~ msgstr "error modifying contract"
+
+#~ msgid "Contract is validated"
+#~ msgstr "Contract is validated"
+
+#~ msgid "contract validated, but error creating notification email"
+#~ msgstr "contract validated, but error creating notification email"
+
+#~ msgid "contract validated, but error sending notification email"
+#~ msgstr "contract validated, but error sending notification email"
+
+#~ msgid "error validating contract"
+#~ msgstr "error validating contract"
+
+#~ msgid "Contract is unlocked"
+#~ msgstr "Contract is unlocked"
+
+#~ msgid "contract unlocked, but error creating notification email"
+#~ msgstr "contract unlocked, but error creating notification email"
+
+#~ msgid "contract unlocked, but error sending notification email"
+#~ msgstr "contract unlocked, but error sending notification email"
+
+#~ msgid ""
+#~ "contract unlocked, but cannot send notification since contract validators "
+#~ "are undefined"
+#~ msgstr ""
+#~ "contract unlocked, but cannot send notification since contract validators "
+#~ "are undefined"
+
+#~ msgid "error unlocking contract"
+#~ msgstr "error unlocking contract"
+
+#~ msgid "Add attribute"
+#~ msgstr "Add attribute"
+
+#~ msgid "Delete attribute"
+#~ msgstr "Delete attribute"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "this attribute is not set"
+#~ msgstr "this attribute is not set"
+
+#~ msgid "Modify attribute"
+#~ msgstr "Modify attribute"
+
+#~ msgid "Attribute operation"
+#~ msgstr "Attribute operation"
+
+#~ msgid "error modifying this attribute"
+#~ msgstr "error modifying this attribute"
+
+#~ msgid "the specified user is not defined as contract actor"
+#~ msgstr "the specified user is not defined as contract actor"
+
+#~ msgid "this kind of reminder (%s) for this user (%s) is already defined"
+#~ msgstr "this kind of reminder (%s) for this user (%s) is already defined"
+
+#~ msgid "Modify reminder"
+#~ msgstr "Modify reminder"
+
+#~ msgid "this reminder is not defined"
+#~ msgstr "this reminder is not defined"
+
+#~ msgid "Delete reminder"
+#~ msgstr "Delete reminder"
+
+#~ msgid "Reminder operation"
+#~ msgstr "Reminder operation"
+
+#~ msgid "error adding this reminder"
+#~ msgstr "error adding this reminder"
+
+#~ msgid "error modifying this reminder"
+#~ msgstr "error modifying this reminder"
+
+#~ msgid "error deleting this reminder"
+#~ msgstr "error deleting this reminder"
+
+#~ msgid "Modify actor"
+#~ msgstr "Modify actor"
+
+#~ msgid "the specified user does not exist"
+#~ msgstr "the specified user does not exist"
+
+#~ msgid "the specified user must be an actor of the contract"
+#~ msgstr "the specified user must be an actor of the contract"
+
+#~ msgid "Actor operation"
+#~ msgstr "Actor operation"
+
+#~ msgid "cannot modify this actor roles"
+#~ msgstr "cannot modify this actor roles"
+
+#~ msgid "cannot add this actor"
+#~ msgstr "cannot add this actor"
+
+#~ msgid "cannot create this user"
+#~ msgstr "cannot create this user"
+
+#~ msgid "you cannot delete contract owner"
+#~ msgstr "you cannot delete contract owner"
+
+#~ msgid "cannot delete this actor"
+#~ msgstr "cannot delete this actor"
+
+#~ msgid "Invoice operation"
+#~ msgstr "Invoice operation"
+
+#~ msgid "you cannot create invoices for this contract"
+#~ msgstr "you cannot create invoices for this contract"
+
+#~ msgid "issued and due dates do not match"
+#~ msgstr "issued and due dates do not match"
+
+#~ msgid "beginning and end dates do not match contract period"
+#~ msgstr "beginning and end dates do not match contract period"
+
+#~ msgid "you cannot create invoices for this timesheet"
+#~ msgstr "you cannot create invoices for this timesheet"
+
+#~ msgid "invoice with reference number %s already exists in this contract"
+#~ msgstr "invoice with reference number %s already exists in this contract"
+
+#~ msgid "Modify invoice"
+#~ msgstr "Modify invoice"
+
+#~ msgid "you cannot modify this invoice"
+#~ msgstr "you cannot modify this invoice"
+
+#~ msgid "cannot find invoice contract"
+#~ msgstr "cannot find invoice contract"
+
+#~ msgid "Delete invoice"
+#~ msgstr "Delete invoice"
+
+#~ msgid "you cannot delete this invoice"
+#~ msgstr "you cannot delete this invoice"
+
+#~ msgid "Lock invoice"
+#~ msgstr "Lock invoice"
+
+#~ msgid "Unlock invoice"
+#~ msgstr "Unlock invoice"
+
+#~ msgid "you cannot lock this invoice"
+#~ msgstr "you cannot lock this invoice"
+
+#~ msgid "you cannot unlock this invoice"
+#~ msgstr "you cannot unlock this invoice"
+
+#~ msgid "Insert units to invoice"
+#~ msgstr "Insert units to invoice"
+
+#~ msgid "you cannot modify the timesheet or the invoice"
+#~ msgstr "you cannot modify the timesheet or the invoice"
+
+#~ msgid "Delete units from invoice"
+#~ msgstr "Delete units from invoice"
+
+#~ msgid "Units"
+#~ msgstr "Units"
+
+#~ msgid "you cannot modify the invoice"
+#~ msgstr "you cannot modify the invoice"
+
+#~ msgid "Insert invoice line"
+#~ msgstr "Insert invoice line"
+
+#~ msgid "Update invoice line"
+#~ msgstr "Update invoice line"
+
+#~ msgid "Delete invoice line"
+#~ msgstr "Delete invoice line"
+
+#~ msgid "error adding new invoice"
+#~ msgstr "error adding new invoice"
+
+#~ msgid "error updating invoice"
+#~ msgstr "error updating invoice"
+
+#~ msgid "error deleting invoice"
+#~ msgstr "error deleting invoice"
+
+#~ msgid "error updating invoice lock"
+#~ msgstr "error updating invoice lock"
+
+#~ msgid "error inserting units to invoice"
+#~ msgstr "error inserting units to invoice"
+
+#~ msgid "error deleting units from invoice"
+#~ msgstr "error deleting units from invoice"
+
+#~ msgid "error inserting invoice line"
+#~ msgstr "error inserting invoice line"
+
+#~ msgid "error updating invoice line"
+#~ msgstr "error updating invoice line"
+
+#~ msgid "error deleting invoice line"
+#~ msgstr "error deleting invoice line"
+
+#~ msgid "Project managers list"
+#~ msgstr "Project managers list"
+
+#~ msgid "you cannot access this timesheet"
+#~ msgstr "you cannot access this timesheet"
+
+#~ msgid "you cannot access this invoice"
+#~ msgstr "you cannot access this invoice"
+
+#~ msgid "comment type unidentified"
+#~ msgstr "comment type unidentified"
+
+#~ msgid "error adding new comment"
+#~ msgstr "error adding new comment"
+
+#~ msgid "you cannot request validation for this contract"
+#~ msgstr "you cannot request validation for this contract"
+
+#~ msgid "the specified user cannot receive notifications for this contract"
+#~ msgstr "the specified user cannot receive notifications for this contract"
+
+#~ msgid "you cannot request validation for this timesheet"
+#~ msgstr "you cannot request validation for this timesheet"
+
+#~ msgid "the specified user cannot receive notifications for this timesheet"
+#~ msgstr "the specified user cannot receive notifications for this timesheet"
+
+#~ msgid "you cannot send this invoice"
+#~ msgstr "you cannot send this invoice"
+
+#~ msgid "invoice contract is unavailable"
+#~ msgstr "invoice contract is unavailable"
+
+#~ msgid "contract organization is unavailable"
+#~ msgstr "contract organization is unavailable"
+
+#~ msgid "the specified user cannot receive notifications for this invoice"
+#~ msgstr "the specified user cannot receive notifications for this invoice"
+
+#~ msgid "invoice not closed or PDF file does not exist"
+#~ msgstr "invoice not closed or PDF file does not exist"
+
+#~ msgid "Send notification"
+#~ msgstr "Send notification"
+
+#~ msgid "Contract is ready for validation"
+#~ msgstr "Contract is ready for validation"
+
+#~ msgid "error creating notification email"
+#~ msgstr "error creating notification email"
+
+#~ msgid "error sending notification email"
+#~ msgstr "error sending notification email"
+
+#~ msgid "An invitation to validate the contract was sent to %s."
+#~ msgstr "An invitation to validate the contract was sent to %s."
+
+#~ msgid "Timesheet is ready for validation"
+#~ msgstr "Timesheet is ready for validation"
+
+#~ msgid "An invitation to validate the timesheet was sent to %s."
+#~ msgstr "An invitation to validate the timesheet was sent to %s."
+
+#~ msgid "Invoice"
+#~ msgstr "Invoice"
+
+#~ msgid "A copy of invoice was sent to %s."
+#~ msgstr "A copy of invoice was sent to %s."
+
+#~ msgid "the specified rate already exists"
+#~ msgstr "the specified rate already exists"
+
+#~ msgid "too many rates defined (you cannot exceed %u rates per contract)"
+#~ msgstr "too many rates defined (you cannot exceed %u rates per contract)"
+
+#~ msgid "Modify rate"
+#~ msgstr "Modify rate"
+
+#~ msgid "this rate is not defined"
+#~ msgstr "this rate is not defined"
+
+#~ msgid "the rate with the specified name already exists"
+#~ msgstr "the rate with the specified name already exists"
+
+#~ msgid "this rate is used in a validated timesheet"
+#~ msgstr "this rate is used in a validated timesheet"
+
+#~ msgid "error reading the list of validated timesheets"
+#~ msgstr "error reading the list of validated timesheets"
+
+#~ msgid "Delete rate"
+#~ msgstr "Delete rate"
+
+#~ msgid "Rates operation"
+#~ msgstr "Rates operation"
+
+#~ msgid "error adding this rate"
+#~ msgstr "error adding this rate"
+
+#~ msgid "error modifying this rate"
+#~ msgstr "error modifying this rate"
+
+#~ msgid "error deleting this rate"
+#~ msgstr "error deleting this rate"
+
+#~ msgid "you cannot add timesheets"
+#~ msgstr "you cannot add timesheets"
+
+#~ msgid "this timesheet already exists"
+#~ msgstr "this timesheet already exists"
+
+#~ msgid "you cannot add timesheets to this contract"
+#~ msgstr "you cannot add timesheets to this contract"
+
+#~ msgid "consultant and project manager must be defined as contract actors"
+#~ msgstr "consultant and project manager must be defined as contract actors"
+
+#~ msgid "cannot access timesheets data"
+#~ msgstr "cannot access timesheets data"
+
+#~ msgid "timesheets longer than 1 year are not supported"
+#~ msgstr "timesheets longer than 1 year are not supported"
+
+#~ msgid "Modify timesheet"
+#~ msgstr "Modify timesheet"
+
+#~ msgid "you cannot modify this timesheet"
+#~ msgstr "you cannot modify this timesheet"
+
+#~ msgid ""
+#~ "timesheet period must accomodate all the units already defined for it"
+#~ msgstr ""
+#~ "timesheet period must accomodate all the units already defined for it"
+
+#~ msgid "Delete timesheet"
+#~ msgstr "Delete timesheet"
+
+#~ msgid "you cannot delete this timesheet"
+#~ msgstr "you cannot delete this timesheet"
+
+#~ msgid "Validate timesheet"
+#~ msgstr "Validate timesheet"
+
+#~ msgid "you cannot validate this timesheet"
+#~ msgstr "you cannot validate this timesheet"
+
+#~ msgid ""
+#~ "this timesheet has just been modified, please <a%s>reload the page</a> to "
+#~ "consult the newer version"
+#~ msgstr ""
+#~ "this timesheet has just been modified, please <a%s>reload the page</a> to "
+#~ "consult the newer version"
+
+#~ msgid "Unlock timesheet"
+#~ msgstr "Unlock timesheet"
+
+#~ msgid "you cannot unlock this timesheet"
+#~ msgstr "you cannot unlock this timesheet"
+
+#~ msgid "Auto-fill timesheet"
+#~ msgstr "Auto-fill timesheet"
+
+#~ msgid "Add work unit"
+#~ msgstr "Add work unit"
+
+#~ msgid "work unit dates lay outside the timesheet"
+#~ msgstr "work unit dates lay outside the timesheet"
+
+#~ msgid ""
+#~ "the rate is already used during the specified period (%s), you may "
+#~ "redefine the existing unit"
+#~ msgstr ""
+#~ "the rate is already used during the specified period (%s), you may "
+#~ "redefine the existing unit"
+
+#~ msgid "Modify work unit"
+#~ msgstr "Modify work unit"
+
+#~ msgid "Delete work unit"
+#~ msgstr "Delete work unit"
+
+#~ msgid "Remove rate units"
+#~ msgstr "Remove rate units"
+
+#~ msgid "Timesheet operation"
+#~ msgstr "Timesheet operation"
+
+#~ msgid "error adding timesheet"
+#~ msgstr "error adding timesheet"
+
+#~ msgid "error modifying timesheet"
+#~ msgstr "error modifying timesheet"
+
+#~ msgid "error deleting timesheet"
+#~ msgstr "error deleting timesheet"
+
+#~ msgid "Timesheet is validated"
+#~ msgstr "Timesheet is validated"
+
+#~ msgid "timesheet validated, but error creating notification email"
+#~ msgstr "timesheet validated, but error creating notification email"
+
+#~ msgid "timesheet validated, but error sending notification email"
+#~ msgstr "timesheet validated, but error sending notification email"
+
+#~ msgid "error validating timesheet"
+#~ msgstr "error validating timesheet"
+
+#~ msgid "Timesheet is unlocked"
+#~ msgstr "Timesheet is unlocked"
+
+#~ msgid "timesheet unlocked, but error creating notification email"
+#~ msgstr "timesheet unlocked, but error creating notification email"
+
+#~ msgid "timesheet unlocked, but error sending notification email"
+#~ msgstr "timesheet unlocked, but error sending notification email"
+
+#~ msgid "error unlocking timesheet"
+#~ msgstr "error unlocking timesheet"
+
+#~ msgid "error auto-filling timesheet"
+#~ msgstr "error auto-filling timesheet"
+
+#~ msgid "error adding work unit"
+#~ msgstr "error adding work unit"
+
+#~ msgid "error modifying work unit"
+#~ msgstr "error modifying work unit"
+
+#~ msgid "error deleting work unit"
+#~ msgstr "error deleting work unit"
+
+#~ msgid "error deleting rate units"
+#~ msgstr "error deleting rate units"
+
+#~ msgid "Contract details"
+#~ msgstr "Contract details"
+
+#~ msgid "Contract %s"
+#~ msgstr "Contract %s"
+
+#~ msgid "contract owner profile is unavailable"
+#~ msgstr "contract owner profile is unavailable"
+
+#~ msgid "List of contracts"
+#~ msgstr "List of contracts"
+
+#~ msgid "Details and Rates"
+#~ msgstr "Details and Rates"
+
+#~ msgid "Actors"
+#~ msgstr "Actors"
+
+#~ msgid "Schedule"
+#~ msgstr "Schedule"
+
+#~ msgid "Attributes"
+#~ msgstr "Attributes"
+
+#~ msgid "Essential contract information"
+#~ msgstr "Essential contract information"
+
+#~ msgid "Rates"
+#~ msgstr "Rates"
+
+#~ msgid "Used by consultant when filling timesheets"
+#~ msgstr "Used by consultant when filling timesheets"
+
+#~ msgid "Actors and Roles"
+#~ msgstr "Actors and Roles"
+
+#~ msgid "Only defined actors may access contract data"
+#~ msgstr "Only defined actors may access contract data"
+
+#~ msgid "Reminders"
+#~ msgstr "Reminders"
+
+#~ msgid "Actors receive periodic reminders following the defined schedule"
+#~ msgstr "Actors receive periodic reminders following the defined schedule"
+
+#~ msgid "Invoices may be configured with additional attributes"
+#~ msgstr "Invoices may be configured with additional attributes"
+
+#~ msgid "Accessible to Provider and Client roles"
+#~ msgstr "Accessible to Provider and Client roles"
+
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgid "First define an actor with Provider role"
+#~ msgstr "First define an actor with Provider role"
+
+#~ msgid "First define an actor with Client role"
+#~ msgstr "First define an actor with Client role"
+
+#~ msgid "Select a validator"
+#~ msgstr "Select a validator"
+
+#~ msgid "Request validation"
+#~ msgstr "Request validation"
+
+#~ msgid ""
+#~ "You are going to validate the contract.\n"
+#~ "Contract details and rates will be freezed.\n"
+#~ "Contract owners will be notified of contract validation."
+#~ msgstr ""
+#~ "You are going to validate the contract.\n"
+#~ "Contract details and rates will be freezed.\n"
+#~ "Contract owners will be notified of contract validation."
+
+#~ msgid ""
+#~ "You are going to unlock the contract.\n"
+#~ "After unlocking it will be possible to modify contract details and "
+#~ "rates.\n"
+#~ "Contract validators will be notified of contract unlocking."
+#~ msgstr ""
+#~ "You are going to unlock the contract.\n"
+#~ "After unlocking it will be possible to modify contract details and "
+#~ "rates.\n"
+#~ "Contract validators will be notified of contract unlocking."
+
+#~ msgid ""
+#~ "You are going to delete the contract.\n"
+#~ "Contract will be deleted with all timesheets, invoices and associated "
+#~ "objects."
+#~ msgstr ""
+#~ "You are going to delete the contract.\n"
+#~ "Contract will be deleted with all timesheets, invoices and associated "
+#~ "objects."
+
+#~ msgid "From - Till"
+#~ msgstr "From - Till"
+
+#~ msgid "You have no contracts"
+#~ msgstr "You have no contracts"
+
+#~ msgid "Invoice details"
+#~ msgstr "Invoice details"
+
+#~ msgid "Invoice %s"
+#~ msgstr "Invoice %s"
+
+#~ msgid "List of invoices"
+#~ msgstr "List of invoices"
+
+#~ msgid "Timesheet units"
+#~ msgstr "Timesheet units"
+
+#~ msgid "Work units added from timesheets"
+#~ msgstr "Work units added from timesheets"
+
+#~ msgid "Add from timesheet"
+#~ msgstr "Add from timesheet"
+
+#~ msgid "Additional lines"
+#~ msgstr "Additional lines"
+
+#~ msgid "Manually added invoice lines"
+#~ msgstr "Manually added invoice lines"
+
+#~ msgid "Summary"
+#~ msgstr "Summary"
+
+#~ msgid "Invoice totals"
+#~ msgstr "Invoice totals"
+
+#~ msgid "Accessible to Provider, Client and Accountant roles"
+#~ msgstr "Accessible to Provider, Client and Accountant roles"
+
+#~ msgctxt "units"
+#~ msgid "UNT"
+#~ msgstr "UNT"
+
+#~ msgid "available unit"
+#~ msgid_plural "available units"
+#~ msgstr[0] "available unit"
+#~ msgstr[1] "available units"
+
+#~ msgid "You are going to delete the invoice."
+#~ msgstr "You are going to delete the invoice."
+
+#~ msgid ""
+#~ "You are going to lock the invoice.\n"
+#~ "PDF version of the invoice will be created. Invoice details will be "
+#~ "freezed."
+#~ msgstr ""
+#~ "You are going to lock the invoice.\n"
+#~ "PDF version of the invoice will be created. Invoice details will be "
+#~ "freezed."
+
+#~ msgid "Generating PDF"
+#~ msgstr "Generating PDF"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid ""
+#~ "You are going to unlock the invoice.\n"
+#~ "After unlocking it will be possible to modify invoice details, PDF "
+#~ "version will be updated."
+#~ msgstr ""
+#~ "You are going to unlock the invoice.\n"
+#~ "After unlocking it will be possible to modify invoice details, PDF "
+#~ "version will be updated."
+
+#~ msgid "Unlock"
+#~ msgstr "Unlock"
+
+#~ msgid "PDF version"
+#~ msgstr "PDF version"
+
+#~ msgid "An actor with Accountant role must be defined for the contract"
+#~ msgstr "An actor with Accountant role must be defined for the contract"
+
+#~ msgid "Select a recipient"
+#~ msgstr "Select a recipient"
+
+#~ msgid "Send PDF"
+#~ msgstr "Send PDF"
+
+#~ msgid "timesheet must be linked to a contract"
+#~ msgstr "timesheet must be linked to a contract"
+
+#~ msgid "timesheet contract is unavailable"
+#~ msgstr "timesheet contract is unavailable"
+
+#~ msgid "you cannot add invoices to this contract"
+#~ msgstr "you cannot add invoices to this contract"
+
+#~ msgid "you need to provide a contract for the invoice"
+#~ msgstr "you need to provide a contract for the invoice"
+
+#~ msgid "You have no invoices"
+#~ msgstr "You have no invoices"
+
+#~ msgid "PDF version of this invoice does not exist"
+#~ msgstr "PDF version of this invoice does not exist"
+
+#~ msgid "Contracts"
+#~ msgstr "Contracts"
+
+#~ msgctxt "contracts"
+#~ msgid "Validated"
+#~ msgstr "Validated"
+
+#~ msgid "Timesheets"
+#~ msgstr "Timesheets"
+
+#~ msgctxt "timesheets"
+#~ msgid "Validated"
+#~ msgstr "Validated"
+
+#~ msgid "Invoices"
+#~ msgstr "Invoices"
+
+#~ msgctxt "invoices"
+#~ msgid "Closed"
+#~ msgstr "Closed"
+
+#~ msgid "Timesheet details"
+#~ msgstr "Timesheet details"
+
+#~ msgid "Timesheet %s"
+#~ msgstr "Timesheet %s"
+
+#~ msgctxt "rate"
+#~ msgid "invoiced"
+#~ msgstr "invoiced"
+
+#~ msgctxt "invoiced"
+#~ msgid "I"
+#~ msgstr "I"
+
+#~ msgid "Jan %u"
+#~ msgstr "Jan %u"
+
+#~ msgid "Feb %u"
+#~ msgstr "Feb %u"
+
+#~ msgid "Mar %u"
+#~ msgstr "Mar %u"
+
+#~ msgid "Apr %u"
+#~ msgstr "Apr %u"
+
+#~ msgid "Mai %u"
+#~ msgstr "Mai %u"
+
+#~ msgid "Jun %u"
+#~ msgstr "Jun %u"
+
+#~ msgid "Jul %u"
+#~ msgstr "Jul %u"
+
+#~ msgid "Aug %u"
+#~ msgstr "Aug %u"
+
+#~ msgid "Sep %u"
+#~ msgstr "Sep %u"
+
+#~ msgid "Oct %u"
+#~ msgstr "Oct %u"
+
+#~ msgid "Nov %u"
+#~ msgstr "Nov %u"
+
+#~ msgid "Dec %u"
+#~ msgstr "Dec %u"
+
+#~ msgid "January %u, %u"
+#~ msgstr "January %u, %u"
+
+#~ msgid "February %u, %u"
+#~ msgstr "February %u, %u"
+
+#~ msgid "March %u, %u"
+#~ msgstr "March %u, %u"
+
+#~ msgid "April %u, %u"
+#~ msgstr "April %u, %u"
+
+#~ msgid "Mai %u, %u"
+#~ msgstr "Mai %u, %u"
+
+#~ msgid "June %u, %u"
+#~ msgstr "June %u, %u"
+
+#~ msgid "July %u, %u"
+#~ msgstr "July %u, %u"
+
+#~ msgid "August %u, %u"
+#~ msgstr "August %u, %u"
+
+#~ msgid "September %u, %u"
+#~ msgstr "September %u, %u"
+
+#~ msgid "October %u, %u"
+#~ msgstr "October %u, %u"
+
+#~ msgid "November %u, %u"
+#~ msgstr "November %u, %u"
+
+#~ msgid "December %u, %u"
+#~ msgstr "December %u, %u"
+
+#~ msgid "Daily rate"
+#~ msgstr "Daily rate"
+
+#~ msgid "No work units registered"
+#~ msgstr "No work units registered"
+
+#~ msgid "Accessible to Provider, Consultant, Client and Project manager roles"
+#~ msgstr ""
+#~ "Accessible to Provider, Consultant, Client and Project manager roles"
+
+#~ msgid "Accessible to both provider and client"
+#~ msgstr "Accessible to both provider and client"
+
+#~ msgid ""
+#~ "The rate with the provided duration will be added to all working days of "
+#~ "the timesheet where it is not yet present."
+#~ msgstr ""
+#~ "The rate with the provided duration will be added to all working days of "
+#~ "the timesheet where it is not yet present."
+
+#~ msgid ""
+#~ "The daily rate will be registered for all working days of the timesheet "
+#~ "with the provided duration."
+#~ msgstr ""
+#~ "The daily rate will be registered for all working days of the timesheet "
+#~ "with the provided duration."
+
+#~ msgid "Auto-fill parameters"
+#~ msgstr "Auto-fill parameters"
+
+#~ msgid "Fill"
+#~ msgstr "Fill"
+
+#~ msgid "Auto-fill"
+#~ msgstr "Auto-fill"
+
+#~ msgid ""
+#~ "You are going to send a message to a project manager with an invitation "
+#~ "to validate the timesheet."
+#~ msgstr ""
+#~ "You are going to send a message to a project manager with an invitation "
+#~ "to validate the timesheet."
+
+#~ msgid ""
+#~ "You are going to validate the timesheet.\n"
+#~ "Further modification will not be possible.\n"
+#~ "Provider will be notified of timesheet validation."
+#~ msgstr ""
+#~ "You are going to validate the timesheet.\n"
+#~ "Further modification will not be possible.\n"
+#~ "Provider will be notified of timesheet validation."
+
+#~ msgid ""
+#~ "You are going to unlock the timesheet.\n"
+#~ "Consultant will be able to modify the timesheet.\n"
+#~ "Timesheet validator will be notified of timesheet unlocking."
+#~ msgstr ""
+#~ "You are going to unlock the timesheet.\n"
+#~ "Consultant will be able to modify the timesheet.\n"
+#~ "Timesheet validator will be notified of timesheet unlocking."
+
+#~ msgid "You are going to remove all the work units from the timesheet."
+#~ msgstr "You are going to remove all the work units from the timesheet."
+
+#~ msgid "Remove all units"
+#~ msgstr "Remove all units"
+
+#~ msgid "Select rate"
+#~ msgstr "Select rate"
+
+#~ msgid "Timesheet is empty"
+#~ msgstr "Timesheet is empty"
+
+#~ msgid ""
+#~ "You are going to remove all work units that use this rate from current "
+#~ "timesheet."
+#~ msgstr ""
+#~ "You are going to remove all work units that use this rate from current "
+#~ "timesheet."
+
+#~ msgid "You are going to delete the timesheet."
+#~ msgstr "You are going to delete the timesheet."
+
+#~ msgid "Select invoice"
+#~ msgstr "Select invoice"
+
+#~ msgid "New invoice"
+#~ msgstr "New invoice"
+
+#~ msgid ""
+#~ "You are going to add all non-invoiced work units to the specified invoice."
+#~ msgstr ""
+#~ "You are going to add all non-invoiced work units to the specified invoice."
+
+#~ msgid "Add to invoice"
+#~ msgstr "Add to invoice"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "You have no timesheets"
+#~ msgstr "You have no timesheets"
+
+#~ msgid "Timesheet without contract"
+#~ msgstr "Timesheet without contract"
+
+#~ msgid ""
+#~ "Timesheet Validation - where clients approve consultants timesheets online"
+#~ msgstr ""
+#~ "Timesheet Validation - where clients approve consultants timesheets online"
+
+#~ msgid ""
+#~ "Online timesheet validation service, where consultants record time worked "
+#~ "and their clients approve these timesheets, providing the basis for "
+#~ "invoicing"
+#~ msgstr ""
+#~ "Online timesheet validation service, where consultants record time worked "
+#~ "and their clients approve these timesheets, providing the basis for "
+#~ "invoicing"
+
+#~ msgid "Update hint"
+#~ msgstr "Update hint"
+
+#~ msgid "error updating hint value"
+#~ msgstr "error updating hint value"
+
+#~ msgid "Switch organization"
+#~ msgstr "Switch organization"
+
+#~ msgid "Update user profile"
+#~ msgstr "Update user profile"
+
+#~ msgid "New username"
+#~ msgstr "New username"
+
+#~ msgid "your new username must be different from your current one"
+#~ msgstr "your new username must be different from your current one"
+
+#~ msgid "Change username"
+#~ msgstr "Change username"
+
+#~ msgid "this username (%s) is already registered for another profile"
+#~ msgstr "this username (%s) is already registered for another profile"
+
+#~ msgid "Change username confirmation"
+#~ msgstr "Change username confirmation"
+
+#~ msgid "this action is only allowed on your own profile"
+#~ msgstr "this action is only allowed on your own profile"
+
+#~ msgid ""
+#~ "this key does not allow username modification, please resubmit your "
+#~ "original request"
+#~ msgstr ""
+#~ "this key does not allow username modification, please resubmit your "
+#~ "original request"
+
+#~ msgid "your new password matches your current one"
+#~ msgstr "your new password matches your current one"
+
+#~ msgid "Change password"
+#~ msgstr "Change password"
+
+#~ msgid "Change password confirmation"
+#~ msgstr "Change password confirmation"
+
+#~ msgid "this key does not allow password modification"
+#~ msgstr "this key does not allow password modification"
+
+#~ msgid "User profile"
+#~ msgstr "User profile"
+
+#~ msgid "Profile"
+#~ msgstr "Profile"
+
+#~ msgid "Profile settings"
+#~ msgstr "Profile settings"
+
+#~ msgid "Username"
+#~ msgstr "Username"
+
+#~ msgid "This action requires email confirmation"
+#~ msgstr "This action requires email confirmation"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirm"
+
+#~ msgid "Sign in to Timesheet Validation"
+#~ msgstr "Sign in to Timesheet Validation"
+
+#~ msgid ""
+#~ "Password recovery instructions will be sent to the following address: %s"
+#~ msgstr ""
+#~ "Password recovery instructions will be sent to the following address: %s"
+
+#~ msgid "Password recovery"
+#~ msgstr "Password recovery"
+
+#~ msgid ""
+#~ "To recover the forgotten password please fill-in the Username field.\n"
+#~ "An email with recovery instructions will be sent to that address."
+#~ msgstr ""
+#~ "To recover the forgotten password please fill-in the Username field.\n"
+#~ "An email with recovery instructions will be sent to that address."
+
+#~ msgid "I forgot my password"
+#~ msgstr "I forgot my password"
+
+#~ msgid "remember me"
+#~ msgstr "remember me"
+
+#~ msgid "Sign up to Timesheet Validation"
+#~ msgstr "Sign up to Timesheet Validation"
+
+#~ msgid "Use your email as a username"
+#~ msgstr "Use your email as a username"
+
+#~ msgid ""
+#~ "Organizations allow you to link your timesheets to contracts and invoices "
+#~ "(see <a%s>%s</a>)"
+#~ msgstr ""
+#~ "Organizations allow you to link your timesheets to contracts and invoices "
+#~ "(see <a%s>%s</a>)"
+
+#~ msgid "operating modes"
+#~ msgstr "operating modes"
+
+#~ msgid "Create account"
+#~ msgstr "Create account"
+
+#~ msgid "Feedback"
+#~ msgstr "Feedback"
+
+#~ msgid "captcha has expired"
+#~ msgstr "captcha has expired"
+
+#~ msgid "Thank you! Your feedback will be forwarded to our support team."
+#~ msgstr "Thank you! Your feedback will be forwarded to our support team."
+
+#~ msgid "Timesheet Validation support"
+#~ msgstr "Timesheet Validation support"
+
+#~ msgid "Support zone: select your subscription plan"
+#~ msgstr "Support zone: select your subscription plan"
+
+#~ msgid "Personal"
+#~ msgstr "Personal"
+
+#~ msgid ""
+#~ "Simplified mode for basic utilization. Allows the creation of timesheets, "
+#~ "validation by third party and notification services"
+#~ msgstr ""
+#~ "Simplified mode for basic utilization. Allows the creation of timesheets, "
+#~ "validation by third party and notification services"
+
+#~ msgid "Professional"
+#~ msgstr "Professional"
+
+#~ msgid ""
+#~ "Complete mode allowing contracts, timesheets and invoicing integration, "
+#~ "as well as assignment of account managers per company"
+#~ msgstr ""
+#~ "Complete mode allowing contracts, timesheets and invoicing integration, "
+#~ "as well as assignment of account managers per company"
+
+#~ msgid "Personal plan: Timesheet Validation support"
+#~ msgstr "Personal plan: Timesheet Validation support"
+
+#~ msgid "Support: FAQ"
+#~ msgstr "Support: FAQ"
+
+#~ msgid "Personal plan"
+#~ msgstr "Personal plan"
+
+#~ msgid "Professional plan: Timesheet Validation support"
+#~ msgstr "Professional plan: Timesheet Validation support"
+
+#~ msgid "Professional plan"
+#~ msgstr "Professional plan"
+
+#~ msgid "all"
+#~ msgstr "all"
+
+#~ msgid "Valid until"
+#~ msgstr "Valid until"
+
+#~ msgid "Administration is not authorized"
+#~ msgstr "Administration is not authorized"
+
+#~ msgid "user"
+#~ msgid_plural "users"
+#~ msgstr[0] "user"
+#~ msgstr[1] "users"
+
+#~ msgid "Company users"
+#~ msgstr "Company users"
+
+#, fuzzy
+#~ msgid "Managers list"
+#~ msgstr "Project managers list"
+
+#~ msgid "leader"
+#~ msgstr "manager"
+
+#~ msgctxt "leader"
+#~ msgid "ld"
+#~ msgstr "pm"
+
+#~ msgid "Leader"
+#~ msgstr "Manager"
+
+#~ msgid "Support zone for Timesheet Validation service"
+#~ msgstr "Support zone for Timesheet Validation service"
+
+#, fuzzy
+#~ msgid "Timesheet Validation support: personal plan"
+#~ msgstr "Timesheet Validation"
+
+#~ msgid "Support for Timesheet Validation"
+#~ msgstr "Support for Timesheet Validation"
+
+#~ msgid "individual"
+#~ msgstr "individual"
+
+#~ msgid "Renewal"
+#~ msgstr "Renewal"
+
+#~ msgid "you cannot access organization details"
+#~ msgstr "you cannot access organization details"
+
+#~ msgid "You are going to delete the work unit."
+#~ msgstr "You are going to delete the work unit."
+
+#~ msgid "details"
+#~ msgstr "details"
+
+#~ msgid "About"
+#~ msgstr "About"
+
+#~ msgid "About Timesheet Validation"
+#~ msgstr "About Timesheet Validation"
+
+#~ msgid "error creating new organization"
+#~ msgstr "error creating new organization"
+
+#~ msgid "organization name must be provided"
+#~ msgstr "organization name must be provided"
+
+#~ msgid "Type of account"
+#~ msgstr "Type of account"
+
+#~ msgid "standard"
+#~ msgstr "standard"
+
+#~ msgid "timesheets validation"
+#~ msgstr "timesheets validation"
+
+#~ msgid "currently in BETA"
+#~ msgstr "currently in BETA"
+
+#~ msgid "contracts validation, timesheets validation, invoices handling"
+#~ msgstr "contracts validation, timesheets validation, invoices handling"
+
+#, fuzzy
+#~ msgid "company added to user"
+#~ msgstr "No lines added"
+
+#~ msgid "Payment"
+#~ msgstr "Payment"
+
+#~ msgid "company is not available"
+#~ msgstr "company is not available"
+
+#~ msgid "user is not found"
+#~ msgstr "user is not found"
+
+#~ msgid "Organization user companies"
+#~ msgstr "Organization user companies"
+
+#~ msgid "Organization user operation"
+#~ msgstr "Organization user operation"
+
+#~ msgid "Client name"
+#~ msgstr "Client name"
+
+#~ msgid "Provider name"
+#~ msgstr "Provider name"
+
+#~ msgid "client has confirmed its name"
+#~ msgstr "client has confirmed its name"
+
+#~ msgid "provider has confirmed its name"
+#~ msgstr "provider has confirmed its name"
+
+#~ msgid ""
+#~ "this profile is inactivated, please contact your administrator to "
+#~ "reactivate it and then retry"
+#~ msgstr ""
+#~ "this profile is inactivated, please contact your administrator to "
+#~ "reactivate it and then retry"
+
+#~ msgid "cannot find contract owner profile or company"
+#~ msgstr "cannot find contract owner profile or company"
+
+#~ msgid "cannot find invoice owner profile"
+#~ msgstr "cannot find invoice owner profile"
+
+#~ msgid "Site feedback"
+#~ msgstr "Site feedback"
+
+#~ msgid "wrong captcha provided, reload page"
+#~ msgstr "wrong captcha provided, reload page"
+
+#~ msgid "too many login attempts, captcha added"
+#~ msgstr "too many login attempts, captcha added"
+
+#~ msgid "Registration number"
+#~ msgstr "Registration number"
+
+#~ msgid "VAT Registration No. for companies, SIRET for freelancers"
+#~ msgstr "VAT Registration No. for companies, SIRET for freelancers"
+
+#~ msgid "error adding this attribute"
+#~ msgstr "error adding this attribute"
+
+#~ msgid "error deleting this attribute"
+#~ msgstr "error deleting this attribute"
+
+#~ msgid "Output invoice PDF"
+#~ msgstr "Output invoice PDF"
+
+#~ msgid "Net"
+#~ msgstr "Net"
+
+#~ msgctxt "price per unit"
+#~ msgid "PPU"
+#~ msgstr "PPU"
+
+#~ msgid "The invoice will be unlocked for modification."
+#~ msgstr "The invoice will be unlocked for modification."
+
+#~ msgctxt "timesheet"
+#~ msgid "Upd."
+#~ msgstr "Upd."
+
+#~ msgid "VAT, %"
+#~ msgstr "VAT, %"
+
+#~ msgid "Timesheet %s - %s"
+#~ msgstr "Timesheet %s - %s"
+
+#~ msgid "list"
+#~ msgstr "list"
+
+#~ msgid "No work units added from timesheets"
+#~ msgstr "No work units added from timesheets"
+
+#~ msgid "cannot find contract record for the invoice"
+#~ msgstr "cannot find contract record for the invoice"
+
+#~ msgctxt "ic"
+#~ msgid "Begins on"
+#~ msgstr "Begins on"
+
+#~ msgctxt "ic"
+#~ msgid "Ends on"
+#~ msgstr "Ends on"
+
+#~ msgctxt "tt"
+#~ msgid "Last updated"
+#~ msgstr "Last updated"
+
+#~ msgctxt "tt"
+#~ msgid "Upd."
+#~ msgstr "Upd."
+
+#~ msgctxt "tt"
+#~ msgid "Begins on"
+#~ msgstr "Begins on"
+
+#~ msgctxt "tt"
+#~ msgid "Ends on"
+#~ msgstr "Ends on"
+
+#~ msgctxt "tt"
+#~ msgid "Validated"
+#~ msgstr "Validated"
+
+#, fuzzy
+#~ msgid "First insert at least one work unit"
+#~ msgstr "You are going to delete the work unit."
+
+#~ msgid "contract cannot end before it starts"
+#~ msgstr "contract cannot end before it starts"
+
+#~ msgid "invoice cannot end before it starts"
+#~ msgstr "invoice cannot end before it starts"
+
+#~ msgid "timesheet cannot end before it starts"
+#~ msgstr "timesheet cannot end before it starts"
+
+#~ msgid "work unit cannot end before it starts"
+#~ msgstr "work unit cannot end before it starts"

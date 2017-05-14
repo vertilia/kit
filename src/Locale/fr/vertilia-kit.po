@@ -1,0 +1,3038 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vertilia-sample\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-11 16:30+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Stas Trefilov <stas.trefilov@gmail.com>\n"
+"Language-Team: Vertilia <stas@vertilia.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: pget:1c,2;nget:1,2;pnget:1c,2,3;noop:1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#~ msgid "Unhandled method"
+#~ msgstr "Méthode non prise en compte"
+
+#~ msgid "Wrong contract id"
+#~ msgstr "Mauvais id de contrat"
+
+#~ msgid "Unknown ressource requested"
+#~ msgstr "Ressource inexistante demandée"
+
+#~ msgid "Company name"
+#~ msgstr "Nom d'entreprise"
+
+#~ msgid "Legal company name to appear in contracts and invoices"
+#~ msgstr "Raison sociale d'entreprise comme affiché dans les contrats et les factures"
+
+#~ msgid "Company"
+#~ msgstr "Entreprise"
+
+#~ msgid "Owner"
+#~ msgstr "Propriétaire"
+
+#~ msgid "Owner type"
+#~ msgstr "Type de propriétaire"
+
+#~ msgid "provider"
+#~ msgstr "prestataire"
+
+#~ msgid "client"
+#~ msgstr "client"
+
+#~ msgctxt "provider"
+#~ msgid "pr"
+#~ msgstr "pr"
+
+#~ msgctxt "client"
+#~ msgid "cl"
+#~ msgstr "cl"
+
+#~ msgid "Reference No."
+#~ msgstr "Nº de référence"
+
+#~ msgid "Ref."
+#~ msgstr "Réf."
+
+#~ msgctxt "contract"
+#~ msgid "Validated"
+#~ msgstr "Validé"
+
+#~ msgctxt "contract validated"
+#~ msgid "Val."
+#~ msgstr "Val."
+
+#~ msgctxt "contract"
+#~ msgid "Last updated"
+#~ msgstr "Mis-à-jour"
+
+#~ msgctxt "contract updated"
+#~ msgid "Upd."
+#~ msgstr "M-à-j"
+
+#~ msgctxt "contract"
+#~ msgid "Begins on"
+#~ msgstr "Date début"
+
+#~ msgid "From"
+#~ msgstr "Du"
+
+#~ msgctxt "contract"
+#~ msgid "Ends on"
+#~ msgstr "Date fin"
+
+#~ msgid "Till"
+#~ msgstr "Au"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Client"
+#~ msgstr "Client"
+
+#~ msgid "Provider"
+#~ msgstr "Prestataire"
+
+#~ msgid "Roles"
+#~ msgstr "Rôles"
+
+#~ msgid "consultant"
+#~ msgstr "consultant"
+
+#~ msgid "project manager"
+#~ msgstr "chef de projet"
+
+#~ msgid "accountant"
+#~ msgstr "comptable"
+
+#~ msgctxt "consultant"
+#~ msgid "cn"
+#~ msgstr "cn"
+
+#~ msgctxt "project manager"
+#~ msgid "pm"
+#~ msgstr "cp"
+
+#~ msgctxt "accountant"
+#~ msgid "ac"
+#~ msgstr "cm"
+
+#~ msgid "Currency"
+#~ msgstr "Devise"
+
+#~ msgid "VAT"
+#~ msgstr "TVA"
+
+#~ msgid "ex: enter <code>20</code> to indicate a 20% V.A.T."
+#~ msgstr "ex&nbsp;: saisissez <code>20</code> pour indiquer la TVA de 20%"
+
+#~ msgid "Label"
+#~ msgstr "Libellé"
+
+#~ msgid "Price"
+#~ msgstr "Prix"
+
+#~ msgid "Invoice unit"
+#~ msgstr "Unité de facturation"
+
+#~ msgid "year"
+#~ msgstr "an"
+
+#~ msgid "month"
+#~ msgstr "mois"
+
+#~ msgid "week"
+#~ msgstr "semaine"
+
+#~ msgid "day"
+#~ msgstr "jour"
+
+#~ msgid "hour"
+#~ msgstr "heure"
+
+#~ msgid "piece"
+#~ msgstr "pièce"
+
+#~ msgid "Recipient"
+#~ msgstr "Destinataire"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "timesheet"
+#~ msgstr "feuille de temps"
+
+#~ msgid "invoice"
+#~ msgstr "facture"
+
+#~ msgid "contract"
+#~ msgstr "contrat"
+
+#~ msgid "Periodicity"
+#~ msgstr "Périodicité"
+
+#~ msgid "Y."
+#~ msgstr "A."
+
+#~ msgid "M."
+#~ msgstr "M."
+
+#~ msgid "W."
+#~ msgstr "S."
+
+#~ msgid "D."
+#~ msgstr "J."
+
+#~ msgid "Frequency"
+#~ msgstr "﻿Fréquence"
+
+#~ msgid "Freq."
+#~ msgstr "Fréq."
+
+#~ msgid "Next notification"
+#~ msgstr "Prochain envoi"
+
+#~ msgctxt "notification"
+#~ msgid "Next"
+#~ msgstr "Suivante"
+
+#~ msgid "Auto add"
+#~ msgstr "Ajout automatique"
+
+#~ msgid "Auto"
+#~ msgstr "Auto"
+
+#~ msgid "creates and modifies contract, controls timesheets and invoices"
+#~ msgstr "crée et modifie le contrat, gère les feuilles de temps et les factures"
+
+#~ msgid "fills timesheets"
+#~ msgstr "remplit les feuilles de temps"
+
+#~ msgid "validates contract and timesheets, views invoices"
+#~ msgstr "valide le contrat et les feuilles de temps, observe les factures"
+
+#~ msgid "validates timesheets"
+#~ msgstr "valide les feuilles de temps"
+
+#~ msgid "receives invoices"
+#~ msgstr "reçoit les factures"
+
+#~ msgid "validates contract, controls timesheets and invoices"
+#~ msgstr "valide le contrat, gère les feuilles de temps et les factures"
+
+#~ msgid "creates and modifies contract, validates timesheets, views invoices"
+#~ msgstr "crée et modifie le contrat, valide les feuilles de temps, observe les factures"
+
+#~ msgid "years"
+#~ msgstr "ans"
+
+#~ msgid "months"
+#~ msgstr "mois"
+
+#~ msgid "weeks"
+#~ msgstr "semaines"
+
+#~ msgid "days"
+#~ msgstr "jours"
+
+#~ msgid "hours"
+#~ msgstr "heures"
+
+#~ msgid "pieces"
+#~ msgstr "pièces"
+
+#~ msgid "yearly"
+#~ msgstr "annuel"
+
+#~ msgid "monthly"
+#~ msgstr "mensuel"
+
+#~ msgid "weekly"
+#~ msgstr "hebdomadaire"
+
+#~ msgid "daily"
+#~ msgstr "journalier"
+
+#~ msgid "hourly"
+#~ msgstr "horaire"
+
+#~ msgid "per piece"
+#~ msgstr "par pièce"
+
+#~ msgid "%sy"
+#~ msgstr "%sa"
+
+#~ msgid "%sm"
+#~ msgstr "%sm"
+
+#~ msgid "%sw"
+#~ msgstr "%ss"
+
+#~ msgid "%sd"
+#~ msgstr "%sj"
+
+#~ msgid "%sh"
+#~ msgstr "%sh"
+
+#~ msgid "%sp"
+#~ msgstr "%sp"
+
+#~ msgid "Short description of the contract"
+#~ msgstr "Description succincte du contrat"
+
+#~ msgid "Default values for currency and tax fields may be defined in Administration module"
+#~ msgstr "Les valeurs par défaut pour la devise et la taxe sont gérées par l'administrateur de l'organisation dans le module Administration"
+
+#~ msgid ""
+#~ "<p>Schedule defines how actors are notified about specific deadlines.</p>\n"
+#~ "<p>Every reminder contains:</p>\n"
+#~ "<ul><li>notification <b>recipient</b>,\n"
+#~ "<li><b>type</b> of reminder (consultants are normally notified to create\n"
+#~ "timesheets, providers -- to make out an invoice, contract owners -- to renew\n"
+#~ "contracts),\n"
+#~ "<li>reminder <b>periodicity</b> (combination of two parameters, frequency and\n"
+#~ "time frame, which describes how often the reminder appears. Available time\n"
+#~ "frames are: <b>Y</b>ear, <b>M</b>onth, <b>W</b>eek, <b>D</b>ay. For example,\n"
+#~ "<code>1 M[onth]</code> will cast the reminders the same day each month,\n"
+#~ "<code>4 W[eek]</code> will send reminders in 28-day intervals,\n"
+#~ "<code>15 D[ay]</code> reminds every 15 days),\n"
+#~ "<li><b>next date</b> (the date indicating when the next reminder will be sent.\n"
+#~ "Each time a reminder is sent this date is incremented by <b>periodicity</b>),\n"
+#~ "<li><b>auto add</b> indicator (whether a new timesheet will be appended to the\n"
+#~ "last validated one, a new invoice created with not yet invoiced validated\n"
+#~ "timesheets, or a new contract created by duplicating the current one and\n"
+#~ "changing dates of begin / end).\n"
+#~ "</ul>"
+#~ msgstr ""
+#~ "<p>Le planning définie comment les acteurs sont notifiés à propos des échéances du contrat.</p>\n"
+#~ "<p>Chaque rappel contient:</p>\n"
+#~ "<ul><li>un <b>destinataire</b> du rappel,\n"
+#~ "<li>un <b>type</b> de rappel (consultants sont habituellement notifiés de créer les feuilles de temps, prestataires -- de créer les factures, les créateurs du contrat -- de renouveler le contrat),\n"
+#~ "<li>une <b>périodicité</b> de rappel (combinaison de deux paramètres, fréquence et délai, qui décrit à quelle fréquence le rappel déclenchera. Les délais disponibles sont&nbsp;: <b>A</b>n, <b>M</b>ois, <b>S</b>emaine, <b>J</b>our. Par exemple, <code>1 M[ois]</code> pour lancer le rappel le même jour chaque mois,\n"
+#~ "<code>4 S[emaines]</code> enverra les rappels tous les 28 jours,\n"
+#~ "<code>15 J[ours]</code> rappellera chaque 15 jours),\n"
+#~ "<li>le <b>prochain envoi</b> (la date indiquant quand le prochain rappel sera envoyé. Chaque fois que le rappel part cette date est augmentée par <b>périodicité</b>).\n"
+#~ "</ul>"
+
+#~ msgid "Key"
+#~ msgstr "Clé"
+
+#~ msgid "Contract"
+#~ msgstr "Contrat"
+
+#~ msgid "Issue date"
+#~ msgstr "Date d'émission"
+
+#~ msgctxt "invoice"
+#~ msgid "Issued"
+#~ msgstr "Émise"
+
+#~ msgid "Due date"
+#~ msgstr "Date d'échéance"
+
+#~ msgctxt "invoice"
+#~ msgid "Due"
+#~ msgstr "Échéance"
+
+#~ msgid "Amount, V.A.T."
+#~ msgstr "Montant T.V.A."
+
+#~ msgid "Amount"
+#~ msgstr "Montant"
+
+#~ msgctxt "invoice"
+#~ msgid "Begins on"
+#~ msgstr "Date début"
+
+#~ msgctxt "invoice"
+#~ msgid "Ends on"
+#~ msgstr "Date fin"
+
+#~ msgctxt "invoice"
+#~ msgid "Closed"
+#~ msgstr "Clôturée"
+
+#~ msgctxt "invoice closed"
+#~ msgid "Cl."
+#~ msgstr "Cl."
+
+#~ msgid "Price per Unit"
+#~ msgstr "Prix Unitaire"
+
+#~ msgctxt "price per unit"
+#~ msgid "PPU Net"
+#~ msgstr "Prix/U HT"
+
+#~ msgid "Quantity"
+#~ msgstr "Quantité"
+
+#~ msgid "Qty"
+#~ msgstr "Qté"
+
+#~ msgid "Rt"
+#~ msgstr "Tx"
+
+#~ msgid "Begin / end dates correspond to the period of provided services."
+#~ msgstr "Les dates de début / fin correspondent à la période facturée."
+
+#~ msgid "Event"
+#~ msgstr "Événement"
+
+#~ msgid "creation"
+#~ msgstr "création"
+
+#~ msgid "modification"
+#~ msgstr "modification"
+
+#~ msgid "deletion"
+#~ msgstr "suppression"
+
+#~ msgid "validation"
+#~ msgstr "validation"
+
+#~ msgid "invalidation"
+#~ msgstr "déverrouillage"
+
+#~ msgid "log in"
+#~ msgstr "connexion"
+
+#~ msgid "Target type"
+#~ msgstr "Type de cible"
+
+#~ msgid "Comment"
+#~ msgstr "Commentaire"
+
+#~ msgid "Organization ID"
+#~ msgstr "ID organisation"
+
+#~ msgid "Organization name"
+#~ msgstr "Nom d'organisation"
+
+#~ msgid "Organization legal name as it appears on contracts, timesheets and invoices"
+#~ msgstr "Dénomination sociale comme affiché dans les contrats, les feuilles de temps et les factures"
+
+#~ msgid "Subscription plan"
+#~ msgstr "Type d'abonnement"
+
+#~ msgid "Plan"
+#~ msgstr "Forfait"
+
+#~ msgid "PRO 5"
+#~ msgstr "PRO 5"
+
+#~ msgid "PRO 10"
+#~ msgstr "PRO 10"
+
+#~ msgid "PRO 50"
+#~ msgstr "PRO 50"
+
+#~ msgid "Enterprise 25"
+#~ msgstr "Entreprise 25"
+
+#~ msgid "Enterprise 100"
+#~ msgstr "Entreprise 100"
+
+#~ msgid "Enterprise Unlimited"
+#~ msgstr "Entreprise Illimité"
+
+#~ msgid "Subscription status"
+#~ msgstr "Etat d'abonnement"
+
+#~ msgid "Status"
+#~ msgstr "Statut"
+
+#~ msgctxt "status"
+#~ msgid "pending"
+#~ msgstr "en cours"
+
+#~ msgctxt "status"
+#~ msgid "accepted"
+#~ msgstr "accepté"
+
+#~ msgctxt "status"
+#~ msgid "rejected"
+#~ msgstr "rejeté"
+
+#~ msgctxt "status"
+#~ msgid "cancelled"
+#~ msgstr "annulé"
+
+#~ msgid "Start date"
+#~ msgstr "Date début"
+
+#~ msgid "End date"
+#~ msgstr "Date fin"
+
+#~ msgid "Timesheet"
+#~ msgstr "Feuille de temps"
+
+#~ msgid "Consultant"
+#~ msgstr "Consultant"
+
+#~ msgid "Manager"
+#~ msgstr "Chef de projet"
+
+#~ msgctxt "timesheet"
+#~ msgid "Last updated"
+#~ msgstr "Mise-à-jour"
+
+#~ msgctxt "timesheet updated"
+#~ msgid "Upd."
+#~ msgstr "M-à-j"
+
+#~ msgctxt "timesheet"
+#~ msgid "Begins on"
+#~ msgstr "Date début"
+
+#~ msgctxt "timesheet"
+#~ msgid "Ends on"
+#~ msgstr "Date fin"
+
+#~ msgctxt "timesheet"
+#~ msgid "Validated"
+#~ msgstr "Validée"
+
+#~ msgctxt "timesheet validated"
+#~ msgid "Val."
+#~ msgstr "Val."
+
+#~ msgid "Validation status"
+#~ msgstr "Statut de validation"
+
+#~ msgid "Rate"
+#~ msgstr "Forfait"
+
+#~ msgid "Nbr. units"
+#~ msgstr "Nbr. d'unités"
+
+#~ msgid "email"
+#~ msgstr "e-mail"
+
+#~ msgid "Last name"
+#~ msgstr "Nom"
+
+#~ msgid "First name"
+#~ msgstr "Prénom"
+
+#~ msgid "Initials"
+#~ msgstr "Initiales"
+
+#~ msgid "Interface language"
+#~ msgstr "Langage d'interface"
+
+#~ msgid "Language"
+#~ msgstr "Langage"
+
+#~ msgid "english"
+#~ msgstr "anglais"
+
+#~ msgid "french"
+#~ msgstr "français"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid "Use SSL"
+#~ msgstr "Utiliser SSL"
+
+#~ msgid "stay in SSL mode after sign in"
+#~ msgstr "rester en mode SSL après la connexion"
+
+#~ msgid "whether to stay in SSL mode after sign in (which always uses https protocol)"
+#~ msgstr "faut-il rester en mode SSL après l'ouverture de la session (qui utilise toujours le protocole https)"
+
+#~ msgid "Organization"
+#~ msgstr "Organisation"
+
+#~ msgid "User"
+#~ msgstr "Utilisateur"
+
+#~ msgid "minimum password length is 6 characters"
+#~ msgstr "la longueur minimale du mot de passe est de 6 caractères"
+
+#~ msgid "this password is too popular (for a good password appeal to your originality)"
+#~ msgstr "ce mot de passe est trop populaire (pour un bon mot de passe faites jouer votre originalité)"
+
+#~ msgid "this password is too trivial (for a better password activate your creativity)"
+#~ msgstr "ce mot de passe est trop simple (pour un meilleur mot de passe faites appel à votre créativité)"
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid "Administration"
+#~ msgstr "Administration"
+
+#~ msgid "Users"
+#~ msgstr "Utilisateurs"
+
+#~ msgid "Companies"
+#~ msgstr "Entreprises"
+
+#~ msgid "Subscription"
+#~ msgstr "Abonnement"
+
+#~ msgid "Add organization"
+#~ msgstr "Ajouter une organisation"
+
+#~ msgid "Hint"
+#~ msgstr "Astuce"
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid ""
+#~ "To create contracts first define companies and then assign managers on <a%s>Companies</a> tab.\n"
+#~ "Account manager can only create contracts with authorized companies."
+#~ msgstr ""
+#~ "Pour pouvoir créer des contrats définissez d'abord les entreprises, puis attribuez-les aux gestionnaires dans l'onglet <a%s>Entreprises</a>.\n"
+#~ "Un gestionnaire de compte ne peut créer de contrats qu'avec des entreprises autorisées."
+
+#~ msgid "Log"
+#~ msgstr "Historique"
+
+#~ msgctxt "companies"
+#~ msgid "remove all"
+#~ msgstr "retirer toutes"
+
+#~ msgid "User companies"
+#~ msgstr "﻿Entreprises d'utilisateur"
+
+#~ msgid "click name to remove"
+#~ msgstr "cliquez le nom pour retirer"
+
+#~ msgid "empty list"
+#~ msgstr "liste vide"
+
+#~ msgctxt "companies"
+#~ msgid "add all"
+#~ msgstr "ajouter toutes"
+
+#~ msgid "Available companies"
+#~ msgstr "Entreprises disponibles"
+
+#~ msgid "click name to add"
+#~ msgstr "cliquez le nom pour ajouter"
+
+#~ msgid "company"
+#~ msgid_plural "companies"
+#~ msgstr[0] "entreprise"
+#~ msgstr[1] "entreprises"
+
+#~ msgctxt "users"
+#~ msgid "remove all"
+#~ msgstr "retirer tous"
+
+#~ msgid "Account managers"
+#~ msgstr "Gestionnaires de compte"
+
+#~ msgctxt "users"
+#~ msgid "add all"
+#~ msgstr "ajouter tous"
+
+#~ msgid "Available users"
+#~ msgstr "Utilisateurs disponibles"
+
+#~ msgid "manager"
+#~ msgid_plural "managers"
+#~ msgstr[0] "gestionnaire"
+#~ msgstr[1] "gestionnaires"
+
+#~ msgid "No actors defined"
+#~ msgstr "Aucun acteur n'est défini"
+
+#~ msgid "Add actor"
+#~ msgstr "Ajouter un acteur"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "enter email address or a person lastname"
+#~ msgstr "saisissez une adresse e-mail ou le nom de la personne"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"
+
+#~ msgid "Actor roles"
+#~ msgstr "Rôles d'acteur"
+
+#~ msgid "Actor"
+#~ msgstr "Acteur"
+
+#~ msgid "Headers"
+#~ msgstr "﻿En-têtes"
+
+#~ msgctxt "headers ..."
+#~ msgid "Displayed on each page"
+#~ msgstr "Affichées sur chaque page"
+
+#~ msgctxt "on the ..."
+#~ msgid "left"
+#~ msgstr "gauche"
+
+#~ msgid "Left header"
+#~ msgstr "En-tête gauche"
+
+#~ msgctxt "in the ..."
+#~ msgid "center"
+#~ msgstr "centre"
+
+#~ msgid "Central header"
+#~ msgstr "En-tête centrale"
+
+#~ msgctxt "on the ..."
+#~ msgid "right"
+#~ msgstr "droite"
+
+#~ msgid "Right header"
+#~ msgstr "﻿En-tête droite"
+
+#~ msgid "Top attributes"
+#~ msgstr "Attributs hauts"
+
+#~ msgctxt "attributes ..."
+#~ msgid "Displayed above the invoice lines"
+#~ msgstr "Affichés au-dessus de lignes de facture"
+
+#~ msgid "Top left attribute"
+#~ msgstr "Attribut en haut à gauche"
+
+#~ msgid "Top right attribute"
+#~ msgstr "Attribut en haut à droite"
+
+#~ msgid "Bottom attributes"
+#~ msgstr "Attributs bas"
+
+#~ msgctxt "attributes ..."
+#~ msgid "Displayed below the invoice lines"
+#~ msgstr "Affichés au-dessous de lignes de facture"
+
+#~ msgid "Bottom left attribute"
+#~ msgstr "Attribut en bas à gauche"
+
+#~ msgid "Bottom right attribute"
+#~ msgstr "Attribut en bas à droite"
+
+#~ msgid "Footers"
+#~ msgstr "﻿Pieds de page"
+
+#~ msgctxt "footers ..."
+#~ msgid "Displayed on each page"
+#~ msgstr "Affichés sur chaque page"
+
+#~ msgid "Left footer"
+#~ msgstr "Pied de page gauche"
+
+#~ msgid "Central footer"
+#~ msgstr "Pied de page central"
+
+#~ msgid "Right footer"
+#~ msgstr "Pied de page droite"
+
+#~ msgid "Erase"
+#~ msgstr "﻿Effacer"
+
+#~ msgid "Value"
+#~ msgstr "Valeur"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "beginning and end dates do not match"
+#~ msgstr "dates de début et de fin ne correspondent pas"
+
+#~ msgid "Add contract"
+#~ msgstr "Ajouter un contrat"
+
+#~ msgid ""
+#~ "You are the owner of a new contract. Which side do you represent?\n"
+#~ "Select <code>provider</code> if you are providing services to your client.\n"
+#~ "Select <code>client</code> if you buy services from your provider."
+#~ msgstr ""
+#~ "Vous êtes le propriétaire d'un nouveau contrat. Quelle partie représentez-vous dans le contrat&nbsp;?\n"
+#~ "Sélectionnez <code>prestataire</code> si vous fournissez des services à votre client.\n"
+#~ "Sélectionnez <code>client</code> si vous achetez les services de votre prestataire."
+
+#~ msgid "Modify contract"
+#~ msgstr "Modifier le contrat"
+
+#~ msgid "No rates defined"
+#~ msgstr "Aucun forfait n'est défini"
+
+#~ msgid "Add rate"
+#~ msgstr "Ajouter un forfait"
+
+#~ msgid "rate plan description"
+#~ msgstr "description du plan forfaitaire"
+
+#~ msgid ""
+#~ "Deleting rate will also remove all corresponding entries from non-validated consultant timesheets.\n"
+#~ "Do you want to proceed?"
+#~ msgstr ""
+#~ "La suppression du forfait entrainera la suppression des unités correspondantes dans les feuilles de temps non-validées.\n"
+#~ "Voulez-vous vraiment supprimer le forfait ?"
+
+#~ msgid "Rate description"
+#~ msgstr "Détails du forfait"
+
+#~ msgid "every year starting on %s"
+#~ msgstr "chaque année à partir du %s"
+
+#~ msgid "every month starting on %s"
+#~ msgstr "chaque mois à partir du %s"
+
+#~ msgid "every week starting on %s"
+#~ msgstr "chaque semaine à partir du %s"
+
+#~ msgid "every %u year starting on %s"
+#~ msgid_plural "every %u years starting on %s"
+#~ msgstr[0] "chaque %u année à partir du %s"
+#~ msgstr[1] "chaque %u années à partir du %s"
+
+#~ msgid "every %u month starting on %s"
+#~ msgid_plural "every %u months starting on %s"
+#~ msgstr[0] "chaque %u moin à partir du %s"
+#~ msgstr[1] "chaque %u mois à partir du %s"
+
+#~ msgid "every %u week starting on %s"
+#~ msgid_plural "every %u weeks starting on %s"
+#~ msgstr[0] "chaque %u semaine à partir du %s"
+#~ msgstr[1] "chaque %u semaines à partir du %s"
+
+#~ msgid "No reminders defined"
+#~ msgstr "Aucun rappel n'est défini"
+
+#~ msgid "next date must be in the future"
+#~ msgstr "la date du prochain envoi doit être au futur"
+
+#~ msgid "Add reminder"
+#~ msgstr "Ajouter un rappel"
+
+#~ msgid "select the user from the list of contract actors"
+#~ msgstr "sélectionnez l'utilisateur dans la liste des acteurs du contrat"
+
+#~ msgid "Do you want to delete the reminder?"
+#~ msgstr "Voulez-vous vraiment supprimer le rappel ?"
+
+#~ msgid "Reminder details"
+#~ msgstr "Détails du rappel"
+
+#~ msgctxt "contract"
+#~ msgid "validated on %s"
+#~ msgstr "validé le %s"
+
+#~ msgctxt "contract"
+#~ msgid "validated"
+#~ msgstr "validé"
+
+#~ msgctxt "contract"
+#~ msgid "not validated"
+#~ msgstr "non validé"
+
+#~ msgctxt "on {date} by {name}"
+#~ msgid "on %s by %s"
+#~ msgstr "le %s par %s"
+
+#~ msgctxt "on {date}"
+#~ msgid "on %s"
+#~ msgstr "le %s"
+
+#~ msgid "yes"
+#~ msgstr "oui"
+
+#~ msgid "no"
+#~ msgstr "non"
+
+#~ msgid "Send feedback"
+#~ msgstr "Envoyer un commentaire"
+
+#~ msgid "Send"
+#~ msgstr "Envoyer"
+
+#~ msgid "Please do not forget to provide your contact information if you wish to receive an answer"
+#~ msgstr "﻿Veuillez à ne pas oublier de fournir vos coordonnées si vous souhaitez recevoir une réponse"
+
+#~ msgid "By date"
+#~ msgstr "Par date"
+
+#~ msgid "2 months"
+#~ msgstr "2 mois"
+
+#~ msgid "6 months"
+#~ msgstr "6 mois"
+
+#~ msgid "1 year"
+#~ msgstr "1 an"
+
+#~ msgid "no restriction"
+#~ msgstr "sans restriction"
+
+#~ msgid "By role"
+#~ msgstr "Par rôle"
+
+#~ msgid "issue and due dates do not match"
+#~ msgstr "dates d'émission et d'échéance ne correspondent pas"
+
+#~ msgid "Add invoice"
+#~ msgstr "Ajouter une facture"
+
+#~ msgid "Add invoice line"
+#~ msgstr "Ajouter une ligne de facture"
+
+#~ msgctxt "unit"
+#~ msgid "validated"
+#~ msgstr "validée"
+
+#~ msgctxt "valid"
+#~ msgid "VAL"
+#~ msgstr "VAL"
+
+#~ msgctxt "unit"
+#~ msgid "not validated"
+#~ msgstr "non validée"
+
+#~ msgctxt "not valid"
+#~ msgid "N/V"
+#~ msgstr "N/V"
+
+#~ msgid "No work units added"
+#~ msgstr "Aucune unité de travail n'est ajoutée"
+
+#~ msgid "No lines added"
+#~ msgstr "Aucune ligne n'est ajoutée"
+
+#~ msgid "Do you want to proceed with the deletion of invoice line?"
+#~ msgstr "Voulez-vous vraiment supprimer cette ligne de facture ?"
+
+#~ msgid "Invoice line"
+#~ msgstr "Ligne de facture"
+
+#~ msgid "Total excl.VAT"
+#~ msgstr "Total HT"
+
+#~ msgid "Total VAT"
+#~ msgstr "Total TVA"
+
+#~ msgid "Total incl.VAT"
+#~ msgstr "Total TTC"
+
+#~ msgid "Period"
+#~ msgstr "Période"
+
+#~ msgid "TOTAL"
+#~ msgstr "TOTAL"
+
+#~ msgid "validated units"
+#~ msgstr "unités validées"
+
+#~ msgid "not validated units"
+#~ msgstr "unités non-validées"
+
+#~ msgid "INVOICE # %s"
+#~ msgstr "FACTURE Nº %s"
+
+#~ msgid "CONTRACT # %s"
+#~ msgstr "CONTRAT Nº %s"
+
+#~ msgid "Price Net"
+#~ msgstr "Prix HT"
+
+#~ msgid "Price VAT"
+#~ msgstr "Prix TTC"
+
+#~ msgctxt "invoice"
+#~ msgid "closed on %s"
+#~ msgstr "clôturée le %s"
+
+#~ msgctxt "invoice"
+#~ msgid "closed"
+#~ msgstr "clôturée"
+
+#~ msgctxt "invoice"
+#~ msgid "not closed"
+#~ msgstr "non clôturée"
+
+#~ msgctxt "{event} by {user}"
+#~ msgid "%s by %s"
+#~ msgstr "%s par %s"
+
+#~ msgid "undefined operation"
+#~ msgstr "opération inconnue"
+
+#~ msgid "No log entries"
+#~ msgstr "Aucune entrée dans l'historique"
+
+#~ msgid "organization created"
+#~ msgstr "organisation créée"
+
+#~ msgid "organization updated"
+#~ msgstr "organisation mise à jour"
+
+#~ msgid "user rights modified"
+#~ msgstr "droits d'accès d'utilisateur modifiés"
+
+#~ msgid "user company added"
+#~ msgstr "entreprise d'utilisateur ajouté"
+
+#~ msgid "all companies added to user"
+#~ msgstr "﻿toutes les entreprises ajoutées à l'utilisateur"
+
+#~ msgid "all users added to company"
+#~ msgstr "﻿tous les utilisateurs ajoutés à l'entreprise"
+
+#~ msgid "user company removed"
+#~ msgstr "entreprise d'utilisateur retirée"
+
+#~ msgid "all user companies removed"
+#~ msgstr "toutes les entreprises d'utilisateur retirées"
+
+#~ msgid "all company users removed"
+#~ msgstr "tous les utilisateurs d'entreprise retirés"
+
+#~ msgid "user removed from organization"
+#~ msgstr "utilisateur supprimé de l'organisation"
+
+#~ msgid "company inserted"
+#~ msgstr "entreprise créée"
+
+#~ msgid "company updated"
+#~ msgstr "entreprise mise à jour"
+
+#~ msgid "company deleted"
+#~ msgstr "entreprise supprimée"
+
+#~ msgid "contract created"
+#~ msgstr "contrat créé"
+
+#~ msgid "contract updated"
+#~ msgstr "contrat mis à jour"
+
+#~ msgid "validation requested"
+#~ msgstr "validation demandée"
+
+#~ msgid "contract validated"
+#~ msgstr "contrat validé"
+
+#~ msgid "contract unlocked"
+#~ msgstr "contrat déverrouillé"
+
+#~ msgid "rate added"
+#~ msgstr "ajout de forfait"
+
+#~ msgid "rate updated"
+#~ msgstr "forfait mis à jour"
+
+#~ msgid "rate deleted"
+#~ msgstr "suppression de forfait"
+
+#~ msgid "actor added"
+#~ msgstr "ajout d'acteur"
+
+#~ msgid "actor updated"
+#~ msgstr "modification d'acteur"
+
+#~ msgid "actor deleted"
+#~ msgstr "suppression d'acteur"
+
+#~ msgid "reminder added"
+#~ msgstr "ajout de rappel"
+
+#~ msgid "reminder updated"
+#~ msgstr "rappel mis à jour"
+
+#~ msgid "reminder deleted"
+#~ msgstr "suppression de rappel"
+
+#~ msgid "comment added"
+#~ msgstr "commentaire ajouté"
+
+#~ msgid "timesheet created"
+#~ msgstr "feuille de temps créée"
+
+#~ msgid "timesheet updated"
+#~ msgstr "feuille de temps mise à jour"
+
+#~ msgid "timesheet validated"
+#~ msgstr "feuille de temps validée"
+
+#~ msgid "timesheet unlocked"
+#~ msgstr "feuille de temps déverrouillée"
+
+#~ msgid "work unit added"
+#~ msgstr "unité de travail ajoutée"
+
+#~ msgid "work unit updated"
+#~ msgstr "unité de travail mise a jour"
+
+#~ msgid "work unit deleted"
+#~ msgstr "unité de travail supprimée"
+
+#~ msgid "timesheet auto-filled"
+#~ msgstr "feuille de temps remplie automatiquement"
+
+#~ msgid "rate units deleted"
+#~ msgstr "unités du forfait effacées"
+
+#~ msgid "invoice created"
+#~ msgstr "facture créée"
+
+#~ msgid "invoice updated"
+#~ msgstr "facture mise à jour"
+
+#~ msgid "invoice closed"
+#~ msgstr "facture clôturée"
+
+#~ msgid "invoice unlocked"
+#~ msgstr "facture déverrouillée"
+
+#~ msgid "units added"
+#~ msgstr "unités ajoutées"
+
+#~ msgid "units deleted"
+#~ msgstr "unités effacées"
+
+#~ msgid "Dashboard"
+#~ msgstr "Tableau de bord"
+
+#~ msgid "Support"
+#~ msgstr "Assistance"
+
+#~ msgid "personal"
+#~ msgstr "﻿personnel"
+
+#~ msgid "add organization"
+#~ msgstr "ajouter une organisation"
+
+#~ msgid "Logout"
+#~ msgstr "Déconnexion"
+
+#~ msgid "Sign up"
+#~ msgstr "Inscription"
+
+#~ msgid "Sign in"
+#~ msgstr "Connexion"
+
+#~ msgid "No comments"
+#~ msgstr "Aucun commentaire"
+
+#~ msgid "Add comment"
+#~ msgstr "Ajouter un commentaire"
+
+#~ msgid "Comments"
+#~ msgstr "Commentaires"
+
+#~ msgid "Currency to use by default in contracts"
+#~ msgstr "﻿Devise à utiliser par défaut dans les contrats"
+
+#~ msgid "Default value of VAT in contracts and invoices. Ex: enter <code>20</code> to indicate a 20% V.A.T."
+#~ msgstr "Valeur de la TVA ﻿par défaut la dans les contrats et factures. Ex&nbsp;: saisissez <code>20</code> pour indiquer la TVA de 20%"
+
+#~ msgid "Attention"
+#~ msgstr "Attention"
+
+#~ msgid ""
+#~ "This organization subscription has not yet expired (expiration date: %s).\n"
+#~ "If you delete the organization now all corresponding credits will be lost!"
+#~ msgstr ""
+#~ "L'abonnement de cette organisation n'a pas encore expiré (date d'expiration : %s). \n"
+#~ "Si vous supprimez l'organisation maintenant tous les crédits correspondants seront perdus !"
+
+#~ msgid "Deletion of %s"
+#~ msgstr "Suppression de %s"
+
+#~ msgid ""
+#~ "<p>The organization will be deleted together with declared companies. Current organization users will be dissociated\n"
+#~ "from the organization.</p>\n"
+#~ "<p><b>Please note:</b> if contracts were created for the organization the deletion will be cancelled.</p>"
+#~ msgstr ""
+#~ "<p>L'organisation sera supprimée ainsi que les entreprises déclarées. Les utilisateurs d'organisation seront dissociés.</p>\n"
+#~ "<p><b>NB&nbsp;:</b> si des contrats ont été créés pour l'organisation, la suppression sera annulée.</p>"
+
+#~ msgid "Modify organization"
+#~ msgstr "Modifier l'organisation"
+
+#~ msgid "Data validation error"
+#~ msgstr "Erreur de validation des données"
+
+#~ msgid "Please provide information for these required fields"
+#~ msgstr "Veuillez remplir les champs obligatoires"
+
+#~ msgid "Correct the following issues"
+#~ msgstr "Corrigez les points suivants"
+
+#~ msgid "Communication error"
+#~ msgstr "Erreur de communication"
+
+#~ msgid "Error occured while communicating with the server. You may check your connection and retry your request later."
+#~ msgstr "Une erreur est survenue lors de communication avec le serveur. Essayez de vérifier la connexion et renouveler votre requête ultérieurement."
+
+#~ msgid "Server error"
+#~ msgstr "Erreur du serveur"
+
+#~ msgid "An unknown error occured on the server while handling your request. You may try to reformulate the request before resubmitting."
+#~ msgstr "Une erreur inconnue s'est produite sur le serveur pendant le traitement de votre requête. Essayez de reformuler la requête avant de la renvoyer."
+
+#~ msgid "%u day"
+#~ msgid_plural "%u days"
+#~ msgstr[0] "%u jour"
+#~ msgstr[1] "%u jours"
+
+#~ msgid "Expires in"
+#~ msgstr "﻿Expire dans"
+
+#~ msgid "The lists of contract consultants and project managers are defined by contract owner. These lists may be modified even for validated contracts."
+#~ msgstr "Les listes des consultants et des chefs de projet du contrat sont définies par le propriétaire du contrat. Ces listes peuvent être modifiées même pour les contrats validés."
+
+#~ msgid "Project manager email"
+#~ msgstr "e-mail du chef de projet"
+
+#~ msgid "Project managers from previous timesheets are used in auto-completion."
+#~ msgstr "Les chefs de projet des précédentes feuilles de temps sont utilisés pour l'auto-complétion."
+
+#~ msgid "Add timesheet"
+#~ msgstr "Ajouter une feuille de temps"
+
+#~ msgid "List of timesheets"
+#~ msgstr "Liste des feuilles de temps"
+
+#~ msgid "%s <small>%s for %s, %s</small>"
+#~ msgstr "%s <small>%s pour %s, %s</small>"
+
+#~ msgid "on %s by %s"
+#~ msgstr "le %s par %s"
+
+#~ msgid "on %s"
+#~ msgstr "le %s"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Timesheet Validation"
+#~ msgstr "Timesheet Validation"
+
+#~ msgid "To manage profile data you need to <a%s>sign in</a> or <a%s>create an account</a> first."
+#~ msgstr "Pour gérer les détails du profil veillez <a%s>vous identifier</a> ou <a%s>créer un compte utilisateur</a>."
+
+#~ msgid "Access denied"
+#~ msgstr "Accès interdit"
+
+#~ msgid "Visitor access denied"
+#~ msgstr "Accès visiteur interdit"
+
+#~ msgid "return to <a%s>home page</a>"
+#~ msgstr "revenir à <a%s>la page d'accueil</a>"
+
+#~ msgid "<a%s>sign in</a>"
+#~ msgstr "<a%s>ouvrir une session</a>"
+
+#~ msgid "You must be identified to access this page"
+#~ msgstr "Vous devez être identifié pour accéder à cette page"
+
+#~ msgid "Required permissions are missing"
+#~ msgstr "Permissions insuffisantes"
+
+#~ msgid "you do not have enough permissions to execute this operation<br><small>Contact your organization's administrator to get access rights</small>"
+#~ msgstr "vous n'avez pas d'autorisations suffisantes pour exécuter cette opération<br><small>Veuillez contacter l'administrateur de votre organisation pour obtenir les droits d'accès correspondants</small>"
+
+#~ msgid "Add company"
+#~ msgstr "Ajouter une entreprise"
+
+#~ msgid "Modify company"
+#~ msgstr "Modifier l'entreprise"
+
+#~ msgid "company is unavailable"
+#~ msgstr "l'entreprise est introuvable"
+
+#~ msgid "Delete company"
+#~ msgstr "Supprimer l'entreprise"
+
+#~ msgid "cannot delete company with existing contracts"
+#~ msgstr "impossible de supprimer une entreprise avec des contrats existants"
+
+#~ msgid "Company operation"
+#~ msgstr "Opération sur une entreprise"
+
+#~ msgid "you cannot modify companies of this organization"
+#~ msgstr "﻿vous ne pouvez pas modifier les entreprises de cette organisation"
+
+#~ msgid "error adding company"
+#~ msgstr "erreur lors de l'ajout d'entreprise"
+
+#~ msgid "error modifying company"
+#~ msgstr "erreur lors de la modification de l'entreprise"
+
+#~ msgid "error deleting company"
+#~ msgstr "erreur à la suppression de l'entreprise"
+
+#~ msgid "you cannot add organizations"
+#~ msgstr "vous ne pouvez pas créer de nouvelles organisations"
+
+#~ msgid "you cannot modify this organization"
+#~ msgstr "vous ne pouvez pas modifier cette organisation"
+
+#~ msgid "organization is unavailable"
+#~ msgstr "l'organisation est introuvable"
+
+#~ msgid "Delete organization"
+#~ msgstr "Supprimer l'organisation"
+
+#~ msgid "you cannot delete this organization"
+#~ msgstr "vous ne pouvez pas supprimer cette organisation"
+
+#~ msgid "%u contract is declared for this organization (%s)"
+#~ msgid_plural "%u contracts are declared for this organization (%s)"
+#~ msgstr[0] "%u contrat est déclare pour cette organisation (%s)"
+#~ msgstr[1] "%u contrats sont déclarés pour cette organisation (%s)"
+
+#~ msgid "first delete all organization contracts"
+#~ msgstr "supprimez d'abord tous les contrats de l'organisation"
+
+#~ msgid "Organization operation"
+#~ msgstr "Opération sur une organisation"
+
+#~ msgid "error updating user profile"
+#~ msgstr "erreur à la mise à jour du profil utilisateur"
+
+#~ msgid "error adding organization"
+#~ msgstr "erreur à l'ajout d'organisation"
+
+#~ msgid "error modifying organization"
+#~ msgstr "erreur lors de la modification d'organisation"
+
+#~ msgid "error deleting organization"
+#~ msgstr "erreur à la suppression d'organisation"
+
+#~ msgid "user profile is unavailable"
+#~ msgstr "le profil d'utilisateur est introuvable"
+
+#~ msgid "User companies operation"
+#~ msgstr "Opération sur les entreprises d'utilisateur"
+
+#~ msgid "you cannot modify company data in this organization"
+#~ msgstr "vous ne pouvez pas modifier les entreprises de cette organisation"
+
+#~ msgid "Add user"
+#~ msgstr "Ajouter un utilisateur"
+
+#~ msgid "cannot access user profile data"
+#~ msgstr "erreur d'accès aux données du profil utilisateur"
+
+#~ msgid "Modify user flag"
+#~ msgstr "Modifier un paramètre d'utilisateur"
+
+#~ msgid "you cannot inactivate your own profile (hint: ask another administrator to inactivate your profile)"
+#~ msgstr "﻿vous ne pouvez pas inactiver votre propre profil (astuce : demandez à un autre administrateur de désactiver votre profil)"
+
+#~ msgid "you cannot remove administration rights from your own profile (hint: ask another administrator to remove your rights)"
+#~ msgstr "﻿vous ne pouvez pas supprimer les droits d'administration de votre propre profil (astuce : demandez à un autre administrateur de supprimer vos droits)"
+
+#~ msgid "you cannot remove yourself from the organization (hint: ask another administrator to remove your profile)"
+#~ msgstr "﻿vous ne pouvez pas retirer votre propre profil de l'organisation (astuce : demandez à un autre administrateur de retirer votre profil)"
+
+#~ msgid "User administration operation"
+#~ msgstr "Opération administrative sur l'utilisateur"
+
+#~ msgid "you cannot modify user data in this organization"
+#~ msgstr "vous ne pouvez pas modifier les données utilisateurs de cette organisation"
+
+#~ msgid "error updating user flags"
+#~ msgstr "erreur à la mise à jour de paramètres utilisateur"
+
+#~ msgid "error registering new email address, please resubmit your request"
+#~ msgstr "erreur à l'enregistrement d'une nouvelle adresse e-mail, veuillez renouveler votre requête"
+
+#~ msgid "error adding user to the organization"
+#~ msgstr "erreur à l'ajout d'utilisateur à l'organisation"
+
+#~ msgid "error removing user from the organization"
+#~ msgstr "erreur à la suppression d'utilisateur de l'organisation"
+
+#~ msgid "Modify"
+#~ msgstr "Modifier"
+
+#~ msgid "You are going to delete company <b></b> from the organization."
+#~ msgstr "Vous êtes sur le point de supprimer l'entreprise <b></b> de l'organisation."
+
+#~ msgid "Details"
+#~ msgstr "Détails"
+
+#~ msgid "Basic organization parameters"
+#~ msgstr "Paramètres principaux de l'organisation"
+
+#~ msgid "Current status"
+#~ msgstr "Statut actuel"
+
+#~ msgid "Description of your organization subscription"
+#~ msgstr "Détails d'abonnement de votre organisation"
+
+#~ msgid "me"
+#~ msgstr "moi"
+
+#~ msgid "Activity"
+#~ msgstr "﻿Activité"
+
+#~ msgid "Remove"
+#~ msgstr "Retirer"
+
+#~ msgid "email of a person to add to the organization"
+#~ msgstr "e-mail de la personne à ajouter à l'organisation"
+
+#~ msgid "Remove user"
+#~ msgstr "Retirer l'utilisateur"
+
+#~ msgid "You are going to remove the user <b></b> from the organization."
+#~ msgstr "Vous êtes sur le point de retirer l'utilisateur <b></b> de l'organisation."
+
+#~ msgid "wrong password provided"
+#~ msgstr "le mot de passe fourni est incorrect"
+
+#~ msgid "Wrong password provided, page will be reloaded"
+#~ msgstr "Mot de passe fourni est incorrect, la page sera rechargée"
+
+#~ msgid "Too many login attempts, captcha will be activated"
+#~ msgstr "Trop de tentatives de connexion, captcha sera activé"
+
+#~ msgid "empty captcha provided"
+#~ msgstr "le captcha est vide"
+
+#~ msgid "wrong captcha provided, page will be reloaded"
+#~ msgstr "captcha fourni est incorrect, la page sera rechargée"
+
+#~ msgid "Captcha is expired, page will be reloaded"
+#~ msgstr "Captcha a expiré, la page sera rechargée"
+
+#~ msgid "user inactivated (see this issue with your organization's administrator)"
+#~ msgstr "utilisateur désactivé (veuillez contacter l'administrateur de votre organisation)"
+
+#~ msgid "Logout command"
+#~ msgstr "Commande de fermeture de session"
+
+#~ msgid "Password restore"
+#~ msgstr "Récupération du mot de passe"
+
+#~ msgid "Lost password confirmation"
+#~ msgstr "Confirmation de réinitialisation de mot de passe"
+
+#~ msgid "error creating confirmation email"
+#~ msgstr "erreur à la création d'e-mail de confirmation"
+
+#~ msgid "error sending confirmation email"
+#~ msgstr "erreur à l'envoi d'e-mail de confirmation"
+
+#~ msgid ""
+#~ "A password restore link was sent to the address %s.\n"
+#~ "Please check your inbox and follow the instructions in the message to validate this action."
+#~ msgstr ""
+#~ "Les instructions de récupération du mot de passe ont été envoyées à l'adresse %s.\n"
+#~ "Merci de bien vouloir vérifier votre boîte de réception et suivre les instructions communiquées."
+
+#~ msgid "cannot find user profile corresponding to this email"
+#~ msgstr "aucun profil utilisateur ne correspond à cet e-mail"
+
+#~ msgid "this key has already been activated"
+#~ msgstr "cette clé a déjà été activée"
+
+#~ msgid "this key has expired, please resubmit your original request"
+#~ msgstr "cette clé est expirée, veuillez renouveler votre requête d'origine"
+
+#~ msgid "this key does not allow password restore"
+#~ msgstr "cette clé ne permet pas la réinitialisation de mot de passe"
+
+#~ msgid "provided key was not found"
+#~ msgstr "la clé fournie ne peut pas être retrouvée"
+
+#~ msgid "Confirmation"
+#~ msgstr "Confirmation"
+
+#~ msgid "confirmation must match your password"
+#~ msgstr "la confirmation doit correspondre au mot de passe"
+
+#~ msgid ""
+#~ "this email address is already registered<br>\n"
+#~ "<small>If you forgot your password you may use password recovery functionality available on\n"
+#~ "<a%s>Sign in page</a></small>"
+#~ msgstr ""
+#~ "cette adresse e-mail est déjà enregistrée<br>\n"
+#~ "<small>Si vous avez oublié votre mot de passe nous vous invitons à utiliser la fonctionnalité de récupération du mot de passe sur <a%s>la page de connexion</a></small>"
+
+#~ msgid "Create a new user account"
+#~ msgstr "Inscription à Timesheet Validation"
+
+#~ msgid "error creating new user record"
+#~ msgstr "erreur lors de la création d'utilisateur"
+
+#~ msgid ""
+#~ "We have just sent you a confirmation email.\n"
+#~ "Please check your inbox and follow the instructions in the message to validate this action."
+#~ msgstr ""
+#~ "Nous venons de vous envoyer une confirmation par e-mail.\n"
+#~ "Merci de bien vouloir vérifier votre boîte de réception et suivre les instructions communiquées."
+
+#~ msgid "this key does not allow user creation, please resubmit your original request"
+#~ msgstr "cette clé ne permet pas la création d'identifiant, veuillez renouveler votre requête d'origine"
+
+#~ msgid "user inactivated on creation"
+#~ msgstr "utilisateur désactivé lors de la création du compte"
+
+#~ msgid ""
+#~ "Welcome to Timesheet Validation service! We have just created your user account.\n"
+#~ "You will be redirected to your profile page in a moment."
+#~ msgstr ""
+#~ "Bienvenue à Timesheet Validation ! Nous venons de vous créer un compte utilisateur.\n"
+#~ "Vous y serez redirigé dans un instant."
+
+#~ msgid "error creating new user profile"
+#~ msgstr "erreur lors de la création du profil utilisateur"
+
+#~ msgid "Actors list"
+#~ msgstr "Liste d'acteurs"
+
+#~ msgid "you cannot access this contract"
+#~ msgstr "vous ne pouvez pas accéder à ce contrat"
+
+#~ msgid "you cannot create new contracts"
+#~ msgstr "vous ne pouvez pas créer de nouveaux contrats"
+
+#~ msgid "your organization is not specified"
+#~ msgstr "﻿votre organisation n'est pas spécifiée"
+
+#~ msgid "you are not authorized to create contracts with this company"
+#~ msgstr "vous n'êtes pas autorisé à créer des contrats avec cette entreprise"
+
+#~ msgid "please contact the administrator of your organization"
+#~ msgstr "veuillez contacter l'administrateur de votre organisation"
+
+#~ msgid "you cannot modify this contract"
+#~ msgstr "vous ne pouvez pas modifier ce contrat"
+
+#~ msgid "Delete contract"
+#~ msgstr "Supprimer le contrat"
+
+#~ msgid "you cannot delete this contract"
+#~ msgstr "vous ne pouvez pas supprimer ce contrat"
+
+#~ msgid "Validate contract"
+#~ msgstr "Valider le contrat"
+
+#~ msgid "you cannot validate this contract"
+#~ msgstr "vous ne pouvez pas valider ce contrat"
+
+#~ msgid "this contract has just been modified, please <a%s>reload the page</a> to consult the newer version"
+#~ msgstr "ce contrat vient d'être modifié, veuillez <a%s>rafraîchir la page</a> pour consulter la version à jour"
+
+#~ msgid "Unlock contract"
+#~ msgstr "Déverrouiller le contrat"
+
+#~ msgid "you cannot unlock this contract"
+#~ msgstr "vous ne pouvez pas déverrouiller ce contrat"
+
+#~ msgid "Contract operation"
+#~ msgstr "Opération sur le contrat"
+
+#~ msgid "error adding new contract"
+#~ msgstr "erreur lors de l'ajout d'un nouveau contrat"
+
+#~ msgid "error modifying contract"
+#~ msgstr "erreur lors de la modification du contrat"
+
+#~ msgid "Contract is validated"
+#~ msgstr "Le contrat est validé"
+
+#~ msgid "contract validated, but error creating notification email"
+#~ msgstr "le contrat est validé, mais une erreur est survenue lors de la création du message de notification"
+
+#~ msgid "contract validated, but error sending notification email"
+#~ msgstr "le contrat est validé, mais une erreur est survenue lors de l'envoi d'e-mail de notification"
+
+#~ msgid "error validating contract"
+#~ msgstr "erreur lors de la validation de contrat"
+
+#~ msgid "Contract is unlocked"
+#~ msgstr "Le contrat est déverrouillé"
+
+#~ msgid "contract unlocked, but error creating notification email"
+#~ msgstr "le contrat est déverrouillé, mais une erreur est survenue lors de la création du message de notification"
+
+#~ msgid "contract unlocked, but error sending notification email"
+#~ msgstr "le contrat est déverrouillé, mais une erreur est survenue lors de l'envoi du message de notification"
+
+#~ msgid "contract unlocked, but cannot send notification since contract validators are undefined"
+#~ msgstr "le contrat est déverrouillé, mais le message de notification ne peut pas être envoyé car les validateurs du contrat ne sont pas définis"
+
+#~ msgid "error unlocking contract"
+#~ msgstr "erreur lors de déverrouillage du contrat"
+
+#~ msgid "Add attribute"
+#~ msgstr "Ajouter un attribut"
+
+#~ msgid "Delete attribute"
+#~ msgstr "Supprimer un attribut"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "this attribute is not set"
+#~ msgstr "cet attribut n'est pas renseigné"
+
+#~ msgid "Modify attribute"
+#~ msgstr "Modifier un attribut"
+
+#~ msgid "Attribute operation"
+#~ msgstr "Opération d'attribut"
+
+#~ msgid "error modifying this attribute"
+#~ msgstr "erreur à la mise-à-jour d'attribut"
+
+#~ msgid "the specified user is not defined as contract actor"
+#~ msgstr "l'utilisateur spécifié n'est pas défini comme acteur du contrat"
+
+#~ msgid "this kind of reminder (%s) for this user (%s) is already defined"
+#~ msgstr "ce type de rappel (%s) pour cet acteur (%s) est déjà défini"
+
+#~ msgid "Modify reminder"
+#~ msgstr "Modifier un rappel"
+
+#~ msgid "this reminder is not defined"
+#~ msgstr "ce rappel n'est pas défini"
+
+#~ msgid "Delete reminder"
+#~ msgstr "Suppression du rappel"
+
+#~ msgid "Reminder operation"
+#~ msgstr "Opération sur le rappel"
+
+#~ msgid "error adding this reminder"
+#~ msgstr "erreur lors de l'ajout de rappel"
+
+#~ msgid "error modifying this reminder"
+#~ msgstr "erreur lors de la modification de rappel"
+
+#~ msgid "error deleting this reminder"
+#~ msgstr "erreur lors de la suppression de rappel"
+
+#~ msgid "Modify actor"
+#~ msgstr "Modifier un acteur"
+
+#~ msgid "the specified user does not exist"
+#~ msgstr "l'utilisateur spécifié n'existe pas"
+
+#~ msgid "the specified user must be an actor of the contract"
+#~ msgstr "l'utilisateur spécifié doit être l'acteur du contrat"
+
+#~ msgid "Actor operation"
+#~ msgstr "Opération sur l'acteur"
+
+#~ msgid "cannot modify this actor roles"
+#~ msgstr "erreur lors de la modification des rôles d'acteur"
+
+#~ msgid "cannot add this actor"
+#~ msgstr "erreur lors de l'ajout d'acteur"
+
+#~ msgid "cannot create this user"
+#~ msgstr "erreur lors de la création d'utilisateur"
+
+#~ msgid "you cannot delete contract owner"
+#~ msgstr "vous ne pouvez pas supprimer le propriétaire du contrat"
+
+#~ msgid "cannot delete this actor"
+#~ msgstr "erreur lors de la suppression d'acteur"
+
+#~ msgid "Invoice operation"
+#~ msgstr "Opération sur la facture"
+
+#~ msgid "you cannot create invoices for this contract"
+#~ msgstr "vous ne pouvez pas créer de factures pour ce contrat"
+
+#~ msgid "issued and due dates do not match"
+#~ msgstr "dates d'émission et d'échéance ne correspondent pas"
+
+#~ msgid "beginning and end dates do not match contract period"
+#~ msgstr "dates de début et de fin ne correspondent pas à la période du contrat"
+
+#~ msgid "you cannot create invoices for this timesheet"
+#~ msgstr "vous ne pouvez pas créer de factures pour cette feuille de temps"
+
+#~ msgid "invoice with reference number %s already exists in this contract"
+#~ msgstr "une facture avec le numéro de référence %s existe déjà dans ce contrat"
+
+#~ msgid "Modify invoice"
+#~ msgstr "Modifier la facture"
+
+#~ msgid "you cannot modify this invoice"
+#~ msgstr "vous ne pouvez pas modifier cette facture"
+
+#~ msgid "cannot find invoice contract"
+#~ msgstr "impossible de trouver le contrat de la facture"
+
+#~ msgid "Delete invoice"
+#~ msgstr "Supprimer la facture"
+
+#~ msgid "you cannot delete this invoice"
+#~ msgstr "vous ne pouvez pas supprimer cette facture"
+
+#~ msgid "Lock invoice"
+#~ msgstr "Verrouiller la facture"
+
+#~ msgid "Unlock invoice"
+#~ msgstr "Déverrouiller la facture"
+
+#~ msgid "you cannot lock this invoice"
+#~ msgstr "vous ne pouvez pas verrouiller cette facture"
+
+#~ msgid "you cannot unlock this invoice"
+#~ msgstr "vous ne pouvez pas déverrouiller cette facture"
+
+#~ msgid "Insert units to invoice"
+#~ msgstr "Ajouter les unités à la facture"
+
+#~ msgid "you cannot modify the timesheet or the invoice"
+#~ msgstr "vous ne pouvez pas modifier la feuille de temps ou la facture"
+
+#~ msgid "Delete units from invoice"
+#~ msgstr "Supprimer les unités de la facture"
+
+#~ msgid "Units"
+#~ msgstr "Unités"
+
+#~ msgid "you cannot modify the invoice"
+#~ msgstr "vous ne pouvez pas modifier cette facture"
+
+#~ msgid "Insert invoice line"
+#~ msgstr "Ajouter une ligne de facture"
+
+#~ msgid "Update invoice line"
+#~ msgstr "Modification d'une ligne de facture"
+
+#~ msgid "Delete invoice line"
+#~ msgstr "Suppression d'une ligne de facture"
+
+#~ msgid "error adding new invoice"
+#~ msgstr "erreur lors de l'ajout d'une nouvelle facture"
+
+#~ msgid "error updating invoice"
+#~ msgstr "erreur à la mise à jour de la facture"
+
+#~ msgid "error deleting invoice"
+#~ msgstr "erreur à la suppression de facture"
+
+#~ msgid "error updating invoice lock"
+#~ msgstr "erreur au verrouillage de facture"
+
+#~ msgid "error inserting units to invoice"
+#~ msgstr "erreur à l'ajout des unités à la facture"
+
+#~ msgid "error deleting units from invoice"
+#~ msgstr "erreur à la suppression des unités de la facture"
+
+#~ msgid "error inserting invoice line"
+#~ msgstr "erreur à l'ajout d'une ligne de facture"
+
+#~ msgid "error updating invoice line"
+#~ msgstr "erreur à la mise à jour d'une ligne de facture"
+
+#~ msgid "error deleting invoice line"
+#~ msgstr "erreur à la suppression d'une ligne de facture"
+
+#~ msgid "Project managers list"
+#~ msgstr "Liste des chefs de projet"
+
+#~ msgid "you cannot access this timesheet"
+#~ msgstr "vous ne pouvez pas accéder à cette feuille de temps"
+
+#~ msgid "you cannot access this invoice"
+#~ msgstr "vous ne pouvez pas accéder à cette facture"
+
+#~ msgid "comment type unidentified"
+#~ msgstr "type de commentaire n'est pas défini"
+
+#~ msgid "error adding new comment"
+#~ msgstr "erreur à l'ajout d'un commentaire"
+
+#~ msgid "you cannot request validation for this contract"
+#~ msgstr "vous ne pouvez pas demander la validation pour ce contrat"
+
+#~ msgid "the specified user cannot receive notifications for this contract"
+#~ msgstr "l'utilisateur spécifié ne peut pas recevoir de notifications pour ce contrat"
+
+#~ msgid "you cannot request validation for this timesheet"
+#~ msgstr "vous ne pouvez pas demander la validation pour cette feuille de temps"
+
+#~ msgid "the specified user cannot receive notifications for this timesheet"
+#~ msgstr "l'utilisateur spécifié ne peut pas recevoir de notifications pour cette feuille de temps"
+
+#~ msgid "you cannot send this invoice"
+#~ msgstr "vous ne pouvez pas envoyer cette facture"
+
+#~ msgid "invoice contract is unavailable"
+#~ msgstr "le contrat de la facture est introuvable"
+
+#~ msgid "contract organization is unavailable"
+#~ msgstr "l'organisation du contrat est introuvable"
+
+#~ msgid "the specified user cannot receive notifications for this invoice"
+#~ msgstr "l'utilisateur spécifié ne peut pas recevoir de notifications pour cette facture"
+
+#~ msgid "invoice not closed or PDF file does not exist"
+#~ msgstr "facture inexistante ou la version PDF de cette facture n'existe pas"
+
+#~ msgid "Send notification"
+#~ msgstr "Envoyer la notification"
+
+#~ msgid "Contract is ready for validation"
+#~ msgstr "Le contrat est prêt pour la validation"
+
+#~ msgid "error creating notification email"
+#~ msgstr "erreur lors de la création d'e-mail de notification"
+
+#~ msgid "error sending notification email"
+#~ msgstr "erreur lors d'envoi d'un e-mail de notification"
+
+#~ msgid "An invitation to validate the contract was sent to %s."
+#~ msgstr "Une invitation à valider le contrat a été envoyée à %s."
+
+#~ msgid "Timesheet is ready for validation"
+#~ msgstr "La feuille de temps est prête pour la validation"
+
+#~ msgid "An invitation to validate the timesheet was sent to %s."
+#~ msgstr "Une invitation à valider la feuille de temps a été envoyée à %s."
+
+#~ msgid "Invoice"
+#~ msgstr "Facture"
+
+#~ msgid "A copy of invoice was sent to %s."
+#~ msgstr "Une copie de facture a été envoyée à %s."
+
+#~ msgid "the specified rate already exists"
+#~ msgstr "le forfait spécifié existe déjà"
+
+#~ msgid "too many rates defined (you cannot exceed %u rates per contract)"
+#~ msgstr "nombre de forfaits trop important (vous ne pouvez pas dépasser %u forfaits par contrat)"
+
+#~ msgid "Modify rate"
+#~ msgstr "Modifier le forfait"
+
+#~ msgid "this rate is not defined"
+#~ msgstr "ce forfait n'est pas défini"
+
+#~ msgid "the rate with the specified name already exists"
+#~ msgstr "un forfait portant le même nom existe déjà"
+
+#~ msgid "this rate is used in a validated timesheet"
+#~ msgstr "ce forfait est utilisé dans la feuille de temps validée"
+
+#~ msgid "error reading the list of validated timesheets"
+#~ msgstr "erreur d'accès à la liste des feuilles de temps validées"
+
+#~ msgid "Delete rate"
+#~ msgstr "Suppression de forfait"
+
+#~ msgid "Rates operation"
+#~ msgstr "Opération sur le forfait"
+
+#~ msgid "error adding this rate"
+#~ msgstr "erreur lors de l'ajout du forfait"
+
+#~ msgid "error modifying this rate"
+#~ msgstr "erreur lors de la modification du forfait"
+
+#~ msgid "error deleting this rate"
+#~ msgstr "erreur lors de la suppression du forfait"
+
+#~ msgid "you cannot add timesheets"
+#~ msgstr "vous ne pouvez pas ajouter les feuilles de temps"
+
+#~ msgid "this timesheet already exists"
+#~ msgstr "la feuille de temps spécifiée existe déjà"
+
+#~ msgid "you cannot add timesheets to this contract"
+#~ msgstr "vous ne pouvez pas ajouter de feuilles de temps à ce contrat"
+
+#~ msgid "consultant and project manager must be defined as contract actors"
+#~ msgstr "consultant et chef de projet doivent être définis comme les acteurs du contrat"
+
+#~ msgid "cannot access timesheets data"
+#~ msgstr "erreur d'accès aux données de la feuille de temps"
+
+#~ msgid "timesheets longer than 1 year are not supported"
+#~ msgstr "feuilles de temps de plus d'1 an ne sont pas prises en charge"
+
+#~ msgid "Modify timesheet"
+#~ msgstr "Modifier la feuille de temps"
+
+#~ msgid "you cannot modify this timesheet"
+#~ msgstr "vous ne pouvez pas modifier cette feuille de temps"
+
+#~ msgid "timesheet period must accomodate all the units already defined for it"
+#~ msgstr "La période de feuille de temps doit pouvoir accommoder toutes les unités déjà définies"
+
+#~ msgid "Delete timesheet"
+#~ msgstr "Supprimer la feuille de temps"
+
+#~ msgid "you cannot delete this timesheet"
+#~ msgstr "vous ne pouvez pas supprimer cette feuille de temps"
+
+#~ msgid "Validate timesheet"
+#~ msgstr "Valider la feuille de temps"
+
+#~ msgid "you cannot validate this timesheet"
+#~ msgstr "vous ne pouvez pas valider cette feuille de temps"
+
+#~ msgid "this timesheet has just been modified, please <a%s>reload the page</a> to consult the newer version"
+#~ msgstr "cette feuille de temps vient d'être modifiée, veuillez <a%s>rafraîchir la page</a> pour consulter la version à jour"
+
+#~ msgid "Unlock timesheet"
+#~ msgstr "Déverrouiller la feuille de temps"
+
+#~ msgid "you cannot unlock this timesheet"
+#~ msgstr "vous ne pouvez pas déverrouiller cette feuille de temps"
+
+#~ msgid "Auto-fill timesheet"
+#~ msgstr "Remplissage automatique de feuille de temps"
+
+#~ msgid "Add work unit"
+#~ msgstr "Ajouter l'unité de travail"
+
+#~ msgid "work unit dates lay outside the timesheet"
+#~ msgstr "l'unité de travail dépasse la période de la feuille de temps"
+
+#~ msgid "the rate is already used during the specified period (%s), you may redefine the existing unit"
+#~ msgstr "le forfait spécifié est déjà utilisé pendant la période spécifiée (%s), vous pouvez modifier l'unité existante"
+
+#~ msgid "Modify work unit"
+#~ msgstr "Modifier l'unité de travail"
+
+#~ msgid "Delete work unit"
+#~ msgstr "Supprimer l'unité de travail"
+
+#~ msgid "Remove rate units"
+#~ msgstr "Effacer les unités d'un forfait"
+
+#~ msgid "Timesheet operation"
+#~ msgstr "Opération sur la feuille de temps"
+
+#~ msgid "error adding timesheet"
+#~ msgstr "erreur à l'ajout de nouvelle feuille de temps"
+
+#~ msgid "error modifying timesheet"
+#~ msgstr "erreur à la modification de feuille de temps"
+
+#~ msgid "error deleting timesheet"
+#~ msgstr "erreur à la suppression de feuille de temps"
+
+#~ msgid "Timesheet is validated"
+#~ msgstr "Feuille de temps est validée"
+
+#~ msgid "timesheet validated, but error creating notification email"
+#~ msgstr "feuille de temps est validée, mais une erreur est survenue lors de la création de message de notification"
+
+#~ msgid "timesheet validated, but error sending notification email"
+#~ msgstr "feuille de temps est validée, mais une erreur est survenue lors de l'envoi d'e-mail de notification"
+
+#~ msgid "error validating timesheet"
+#~ msgstr "erreur à la validation de feuille de temps"
+
+#~ msgid "Timesheet is unlocked"
+#~ msgstr "Feuille de temps est déverrouillée"
+
+#~ msgid "timesheet unlocked, but error creating notification email"
+#~ msgstr "feuille de temps est déverrouillée, mais une erreur est survenue lors de la création de message de notification"
+
+#~ msgid "timesheet unlocked, but error sending notification email"
+#~ msgstr "feuille de temps est déverrouillée, mais une erreur est survenue lors de l'envoi de message de notification"
+
+#~ msgid "error unlocking timesheet"
+#~ msgstr "erreur au déverrouillage de feuille de temps"
+
+#~ msgid "error auto-filling timesheet"
+#~ msgstr "erreur au remplissage automatique de la feuille de temps"
+
+#~ msgid "error adding work unit"
+#~ msgstr "erreur à l'ajout d'unité de travail"
+
+#~ msgid "error modifying work unit"
+#~ msgstr "erreur à la modification de l'unité de travail"
+
+#~ msgid "error deleting work unit"
+#~ msgstr "erreur à la suppression de l'unité de travail"
+
+#~ msgid "error deleting rate units"
+#~ msgstr "erreur lors de la suppression d'unités du forfait"
+
+#~ msgid "Contract details"
+#~ msgstr "Détails du contrat"
+
+#~ msgid "Contract %s"
+#~ msgstr "Contrat %s"
+
+#~ msgid "contract owner profile is unavailable"
+#~ msgstr "le propriétaire du contrat est introuvable"
+
+#~ msgid "List of contracts"
+#~ msgstr "Liste de contrats"
+
+#~ msgid "Details and Rates"
+#~ msgstr "Détails et Forfaits"
+
+#~ msgid "Actors"
+#~ msgstr "Acteurs"
+
+#~ msgid "Schedule"
+#~ msgstr "Planning"
+
+#~ msgid "Attributes"
+#~ msgstr "Attributs"
+
+#~ msgid "Essential contract information"
+#~ msgstr "Informations de base"
+
+#~ msgid "Rates"
+#~ msgstr "Forfaits"
+
+#~ msgid "Used by consultant when filling timesheets"
+#~ msgstr "Utilisé par le consultant remplissant les feuilles de temps"
+
+#~ msgid "Actors and Roles"
+#~ msgstr "Acteurs et Rôles"
+
+#~ msgid "Only defined actors may access contract data"
+#~ msgstr "Seuls les acteurs définis peuvent accéder aux données du contrat"
+
+#~ msgid "Reminders"
+#~ msgstr "Rappels"
+
+#~ msgid "Actors receive periodic reminders following the defined schedule"
+#~ msgstr "Les acteurs reçoivent les rappels selon le planning défini"
+
+#~ msgid "Invoices may be configured with additional attributes"
+#~ msgstr "Factures peuvent être configurées avec des attributs supplémentaires"
+
+#~ msgid "Accessible to Provider and Client roles"
+#~ msgstr "Accessible aux rôles Prestataire et Client"
+
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgid "First define an actor with Provider role"
+#~ msgstr "Veuillez à définir d'abord un acteur avec le rôle Prestataire"
+
+#~ msgid "First define an actor with Client role"
+#~ msgstr "Veuillez à définir d'abord un acteur avec le rôle Client"
+
+#~ msgid "Select a validator"
+#~ msgstr "Sélectionnez un validateur"
+
+#~ msgid "Request validation"
+#~ msgstr "Demander la validation"
+
+#~ msgid ""
+#~ "You are going to validate the contract.\n"
+#~ "Contract details and rates will be freezed.\n"
+#~ "Contract owners will be notified of contract validation."
+#~ msgstr ""
+#~ "Vous êtes sur le point de valider le contrat.\n"
+#~ "Les détails du contrat et les forfaits seront verrouillés.\n"
+#~ "Les propriétaires du contrat seront notifiés de la validation du contrat."
+
+#~ msgid ""
+#~ "You are going to unlock the contract.\n"
+#~ "After unlocking it will be possible to modify contract details and rates.\n"
+#~ "Contract validators will be notified of contract unlocking."
+#~ msgstr ""
+#~ "Vous êtes sur le point de déverrouiller le contrat.\n"
+#~ "Après le déverrouillage il sera possible de modifier les détails du contrat et les forfaits.\n"
+#~ "Les validateurs du contrat seront notifiés de déverrouillage."
+
+#~ msgid ""
+#~ "You are going to delete the contract.\n"
+#~ "Contract will be deleted with all timesheets, invoices and associated objects."
+#~ msgstr ""
+#~ "Vous êtes sur le point de supprimer le contrat.\n"
+#~ "Le contrat sera supprimé avec toutes les feuilles de temps, factures et les objets associés."
+
+#~ msgid "From - Till"
+#~ msgstr "Du - Au"
+
+#~ msgid "You have no contracts"
+#~ msgstr "Vous n'avez pas de contrats"
+
+#~ msgid "Invoice details"
+#~ msgstr "Détails de la facture"
+
+#~ msgid "Invoice %s"
+#~ msgstr "Facture %s"
+
+#~ msgid "List of invoices"
+#~ msgstr "Liste de factures"
+
+#~ msgid "Timesheet units"
+#~ msgstr "Unités des feuilles de temps"
+
+#~ msgid "Work units added from timesheets"
+#~ msgstr "Unités de travail ajoutées à partir de feuilles de temps"
+
+#~ msgid "Add from timesheet"
+#~ msgstr "Ajouter à partir de feuille de temps"
+
+#~ msgid "Additional lines"
+#~ msgstr "Lignes complémentaires"
+
+#~ msgid "Manually added invoice lines"
+#~ msgstr "Lignes de facture ajoutées manuellement"
+
+#~ msgid "Summary"
+#~ msgstr "Récapitulatif"
+
+#~ msgid "Invoice totals"
+#~ msgstr "Total de facture"
+
+#~ msgid "Accessible to Provider, Client and Accountant roles"
+#~ msgstr "Accessible aux rôles Prestataire, Client et Comptable"
+
+#~ msgctxt "units"
+#~ msgid "UNT"
+#~ msgstr "UNT"
+
+#~ msgid "available unit"
+#~ msgid_plural "available units"
+#~ msgstr[0] "unité disponible"
+#~ msgstr[1] "unités disponibles"
+
+#~ msgid "You are going to delete the invoice."
+#~ msgstr "Vous êtes sur le point de supprimer la facture."
+
+#~ msgid ""
+#~ "You are going to lock the invoice.\n"
+#~ "PDF version of the invoice will be created. Invoice details will be freezed."
+#~ msgstr ""
+#~ "Vous êtes sur le point de verrouiller la facture.\n"
+#~ "La version PDF de la facture sera créée, la facture ne sera plus modifiable."
+
+#~ msgid "Generating PDF"
+#~ msgstr "Génération de PDF"
+
+#~ msgid "Lock"
+#~ msgstr "﻿Verrouiller"
+
+#~ msgid ""
+#~ "You are going to unlock the invoice.\n"
+#~ "After unlocking it will be possible to modify invoice details, PDF version will be updated."
+#~ msgstr ""
+#~ "Vous êtes sur le point de déverrouiller la facture.\n"
+#~ "Après le déverrouillage il sera possible de modifier les détails de la facture, la version PDF sera mise à jour."
+
+#~ msgid "Unlock"
+#~ msgstr "Déverrouiller"
+
+#~ msgid "PDF version"
+#~ msgstr "Version PDF"
+
+#~ msgid "An actor with Accountant role must be defined for the contract"
+#~ msgstr "Un comptable doit être défini comme acteur du contrat"
+
+#~ msgid "Select a recipient"
+#~ msgstr "Sélectionnez un destinataire"
+
+#~ msgid "Send PDF"
+#~ msgstr "Envoyer le PDF"
+
+#~ msgid "timesheet must be linked to a contract"
+#~ msgstr "la ﻿feuille de temps doit être liée à un contrat"
+
+#~ msgid "timesheet contract is unavailable"
+#~ msgstr "le contrat de la feuille de temps est introuvable"
+
+#~ msgid "you cannot add invoices to this contract"
+#~ msgstr "vous ne pouvez pas ajouter de factures à ce contrat"
+
+#~ msgid "you need to provide a contract for the invoice"
+#~ msgstr "vous devez indiquer le contrat pour émettre la facture"
+
+#~ msgid "You have no invoices"
+#~ msgstr "Vous n'avez pas de factures"
+
+#~ msgid "PDF version of this invoice does not exist"
+#~ msgstr "Version PDF de cette facture n'existe pas"
+
+#~ msgid "Contracts"
+#~ msgstr "Contrats"
+
+#~ msgctxt "contracts"
+#~ msgid "Validated"
+#~ msgstr "Validés"
+
+#~ msgid "Timesheets"
+#~ msgstr "Feuilles de temps"
+
+#~ msgctxt "timesheets"
+#~ msgid "Validated"
+#~ msgstr "Validées"
+
+#~ msgid "Invoices"
+#~ msgstr "Factures"
+
+#~ msgctxt "invoices"
+#~ msgid "Closed"
+#~ msgstr "Clôturées"
+
+#~ msgid "Timesheet details"
+#~ msgstr "Détails de feuille de temps"
+
+#~ msgid "Timesheet %s"
+#~ msgstr "Feuille de temps %s"
+
+#~ msgctxt "rate"
+#~ msgid "invoiced"
+#~ msgstr "facturé"
+
+#~ msgctxt "invoiced"
+#~ msgid "I"
+#~ msgstr "F"
+
+#~ msgid "Jan %u"
+#~ msgstr "%u jan"
+
+#~ msgid "Feb %u"
+#~ msgstr "%u fév"
+
+#~ msgid "Mar %u"
+#~ msgstr "%u mar"
+
+#~ msgid "Apr %u"
+#~ msgstr "%u avr"
+
+#~ msgid "Mai %u"
+#~ msgstr "%u mai"
+
+#~ msgid "Jun %u"
+#~ msgstr "%u jun"
+
+#~ msgid "Jul %u"
+#~ msgstr "%u jul"
+
+#~ msgid "Aug %u"
+#~ msgstr "%u aoû"
+
+#~ msgid "Sep %u"
+#~ msgstr "%u sep"
+
+#~ msgid "Oct %u"
+#~ msgstr "%u oct"
+
+#~ msgid "Nov %u"
+#~ msgstr "%u nov"
+
+#~ msgid "Dec %u"
+#~ msgstr "%u déc"
+
+#~ msgid "January %u, %u"
+#~ msgstr "%u janvier %u"
+
+#~ msgid "February %u, %u"
+#~ msgstr "%u février %u"
+
+#~ msgid "March %u, %u"
+#~ msgstr "%u mars %u"
+
+#~ msgid "April %u, %u"
+#~ msgstr "%u avril %u"
+
+#~ msgid "Mai %u, %u"
+#~ msgstr "%u mai %u"
+
+#~ msgid "June %u, %u"
+#~ msgstr "%u juin %u"
+
+#~ msgid "July %u, %u"
+#~ msgstr "%u juillet %u"
+
+#~ msgid "August %u, %u"
+#~ msgstr "%u août %u"
+
+#~ msgid "September %u, %u"
+#~ msgstr "%u septembre %u"
+
+#~ msgid "October %u, %u"
+#~ msgstr "%u octobre %u"
+
+#~ msgid "November %u, %u"
+#~ msgstr "%u novembre %u"
+
+#~ msgid "December %u, %u"
+#~ msgstr "%u décembre %u"
+
+#~ msgid "Daily rate"
+#~ msgstr "Forfait journalier"
+
+#~ msgid "No work units registered"
+#~ msgstr "Aucune unité de travail n'est enregistrée"
+
+#~ msgid "Accessible to Provider, Consultant, Client and Project manager roles"
+#~ msgstr "Accessible aux rôles Prestataire, Consultant, Client et Chef de projet"
+
+#~ msgid "Accessible to both provider and client"
+#~ msgstr "Accessible aux prestataire et client"
+
+#~ msgid "The rate with the provided duration will be added to all working days of the timesheet where it is not yet present."
+#~ msgstr "Le forfait avec le nombre d'unités spécifié sera enregistré dans tous les jours ouvrés de la feuille de temps où il n'est pas encore présent."
+
+#~ msgid "The daily rate will be registered for all working days of the timesheet with the provided duration."
+#~ msgstr "Les unités du forfait journalier seront enregistrées dans chaque jour ouvré de la feuille de temps qui est encore vide."
+
+#~ msgid "Auto-fill parameters"
+#~ msgstr "Paramètres de remplissage automatique"
+
+#~ msgid "Fill"
+#~ msgstr "Remplir"
+
+#~ msgid "Auto-fill"
+#~ msgstr "Remplissage automatique"
+
+#~ msgid "You are going to send a message to a project manager with an invitation to validate the timesheet."
+#~ msgstr "Vous êtes sur le point d'envoyer le message au chef de projet avec l'invitation de valider la feuille de temps."
+
+#~ msgid ""
+#~ "You are going to validate the timesheet.\n"
+#~ "Further modification will not be possible.\n"
+#~ "Provider will be notified of timesheet validation."
+#~ msgstr ""
+#~ "Vous êtes sur le point de valider la feuille de temps.\n"
+#~ "La fiche ne sera plus modifiable.\n"
+#~ "Le prestataire sera notifié de la validation de la feuille de temps."
+
+#~ msgid ""
+#~ "You are going to unlock the timesheet.\n"
+#~ "Consultant will be able to modify the timesheet.\n"
+#~ "Timesheet validator will be notified of timesheet unlocking."
+#~ msgstr ""
+#~ "Vous êtes sur le point de déverrouiller la feuille de temps.\n"
+#~ "Le consultant pourra modifier la fiche.\n"
+#~ "Le validateur de la feuille de temps sera notifié de déverrouillage."
+
+#~ msgid "You are going to remove all the work units from the timesheet."
+#~ msgstr "Vous êtes sur le point d'effacer toutes les unités de la feuille de temps."
+
+#~ msgid "Remove all units"
+#~ msgstr "Effacer les unités d'un forfait"
+
+#~ msgid "Select rate"
+#~ msgstr "Sélectionnez un forfait"
+
+#~ msgid "Timesheet is empty"
+#~ msgstr "La feuille de temps est vide"
+
+#~ msgid "You are going to remove all work units that use this rate from current timesheet."
+#~ msgstr "Vous êtes sur le point d'effacer toutes les unités utilisant ce forfait de la feuille de temps."
+
+#~ msgid "You are going to delete the timesheet."
+#~ msgstr "Vous êtes sur le point de supprimer la feuille de temps."
+
+#~ msgid "Select invoice"
+#~ msgstr "Sélectionnez une facture"
+
+#~ msgid "New invoice"
+#~ msgstr "Nouvelle facture"
+
+#~ msgid "You are going to add all non-invoiced work units to the specified invoice."
+#~ msgstr "Vous êtes sur le point d'ajouter toutes les unités non-facturées de la feuille de temps à la facture sélectionnée."
+
+#~ msgid "Add to invoice"
+#~ msgstr "Ajouter à une facture"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "You have no timesheets"
+#~ msgstr "Vous n’avez pas de feuilles de temps"
+
+#~ msgid "Timesheet without contract"
+#~ msgstr "Feuille de temps sans contrat"
+
+#~ msgid "Timesheet Validation - where clients approve consultants timesheets online"
+#~ msgstr "Timesheet Validation - là où les clients approuvent les feuilles de temps prestataires en ligne"
+
+#~ msgid "Online timesheet validation service, where consultants record time worked and their clients approve these timesheets, providing the basis for invoicing"
+#~ msgstr "Service de validation des feuilles de temps en ligne, où les consultants saisissent le temps travaillé et les clients approuvent les feuilles de temps, fournissant le justificatif de facturation"
+
+#~ msgid "Update hint"
+#~ msgstr "Mette à jour l'astuce"
+
+#~ msgid "error updating hint value"
+#~ msgstr "erreur à la mise-à-jour de l'astuce"
+
+#~ msgid "Switch organization"
+#~ msgstr "Changer l'organisation"
+
+#~ msgid "Update user profile"
+#~ msgstr "Mettre à jour le profil utilisateur"
+
+#~ msgid "New username"
+#~ msgstr "Nouvel identifiant"
+
+#~ msgid "your new username must be different from your current one"
+#~ msgstr "votre nouvel identifiant doit être différent de l'actuel"
+
+#~ msgid "Change username"
+#~ msgstr "Changer l'identifiant"
+
+#~ msgid "this username (%s) is already registered for another profile"
+#~ msgstr "cet identifiant (%s) est déjà utilisé par un autre profil"
+
+#~ msgid "Change username confirmation"
+#~ msgstr "Confirmation de changement d'identifiant"
+
+#~ msgid "this action is only allowed on your own profile"
+#~ msgstr "cette action n'est autorisée que sur votre propre profil"
+
+#~ msgid "this key does not allow username modification, please resubmit your original request"
+#~ msgstr "cette clé ne permette pas la modification d'identifiant, veuillez renouveler votre requête d'origine"
+
+#~ msgid "your new password matches your current one"
+#~ msgstr "votre nouvel mot de passe est identique à l'actuel"
+
+#~ msgid "Change password"
+#~ msgstr "Changer le mot de passe"
+
+#~ msgid "Change password confirmation"
+#~ msgstr "Confirmation de changement de mot de passe"
+
+#~ msgid "this key does not allow password modification"
+#~ msgstr "cette clé ne permette pas la modification de mot de passe"
+
+#~ msgid "User profile"
+#~ msgstr "Profil utilisateur"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Profile settings"
+#~ msgstr "Paramètres du profil"
+
+#~ msgid "Username"
+#~ msgstr "Identifiant"
+
+#~ msgid "This action requires email confirmation"
+#~ msgstr "Cette action nécessite une confirmation par e-mail"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmer"
+
+#~ msgid "Sign in to Timesheet Validation"
+#~ msgstr "Connexion à Timesheet Validation"
+
+#~ msgid "Password recovery instructions will be sent to the following address: %s"
+#~ msgstr "Les instructions de récupération de mot de passe seront envoyées à l'adresse suivante : %s"
+
+#~ msgid "Password recovery"
+#~ msgstr "Récupération de mot de passe"
+
+#~ msgid ""
+#~ "To recover the forgotten password please fill-in the Username field.\n"
+#~ "An email with recovery instructions will be sent to that address."
+#~ msgstr "Pour récupérer le mot de passe oublié merci de bien vouloir saisir votre adresse e-mail dans le champ Identifiant. Les instructions de récupération de mot de passe seront envoyées à cette adresse."
+
+#~ msgid "I forgot my password"
+#~ msgstr "J'ai oublié mon mot de passe"
+
+#~ msgid "remember me"
+#~ msgstr "rester connecté"
+
+#~ msgid "Sign up to Timesheet Validation"
+#~ msgstr "Inscription à Timesheet Validation"
+
+#~ msgid "Use your email as a username"
+#~ msgstr "Utilisez votre e-mail comme identifiant"
+
+#~ msgid "Organizations allow you to link your timesheets to contracts and invoices (see <a%s>%s</a>)"
+#~ msgstr "﻿Les organisations permettent de relier vos feuilles de temps aux contrats et factures (cf. <a%s>%s</a>)"
+
+#~ msgid "operating modes"
+#~ msgstr "﻿modes d'utilisation"
+
+#~ msgid "Create account"
+#~ msgstr "Créer un compte"
+
+#~ msgid "Feedback"
+#~ msgstr "Avis d'utilisateur"
+
+#~ msgid "captcha has expired"
+#~ msgstr "﻿captcha a expiré"
+
+#~ msgid "Thank you! Your feedback will be forwarded to our support team."
+#~ msgstr "Merci ! Votre avis sera transmis à notre équipe support."
+
+#~ msgid "Timesheet Validation support"
+#~ msgstr "Asistance de Timesheet Validation"
+
+#~ msgid "Support zone: select your subscription plan"
+#~ msgstr "Assistance : sélectionnez votre abonnement"
+
+#~ msgid "Personal"
+#~ msgstr "Personnel"
+
+#~ msgid "Simplified mode for basic utilization. Allows the creation of timesheets, validation by third party and notification services"
+#~ msgstr "Mode simplifié pour une utilisation basique. Permet de créer des feuilles de temps, la validation par un tiers et les notifications"
+
+#~ msgid "Professional"
+#~ msgstr "Professionnel"
+
+#~ msgid "Complete mode allowing contracts, timesheets and invoicing integration, as well as assignment of account managers per company"
+#~ msgstr "Mode complet permettant l'intégration des contrats, des feuilles de temps et de la facturation, ainsi que l'attribution des gestionnaires de compte par entreprise"
+
+#~ msgid "Personal plan: Timesheet Validation support"
+#~ msgstr "Abonnement personnel : assistance de Timesheet Validation"
+
+#~ msgid "Support: FAQ"
+#~ msgstr "Assistance : Questions fréquentes"
+
+#~ msgid "Personal plan"
+#~ msgstr "Abonnement personnel"
+
+#~ msgid "Professional plan: Timesheet Validation support"
+#~ msgstr "Abonnement professionnel : assistance de Timesheet Validation"
+
+#~ msgid "Professional plan"
+#~ msgstr "Abonnement professionnel"
+
+#~ msgid "all"
+#~ msgstr "tout"
+
+#~ msgid "Valid until"
+#~ msgstr "Valide jusqu'au"
+
+#~ msgid "Administration is not authorized"
+#~ msgstr "Administration n'est pas autorisée"
+
+#~ msgid "user"
+#~ msgid_plural "users"
+#~ msgstr[0] "utilisateur"
+#~ msgstr[1] "utilisateurs"
+
+#~ msgid "Company users"
+#~ msgstr "﻿Utilisateurs de l'entreprise"
+
+#~ msgid "leader"
+#~ msgstr "chef de projet"
+
+#~ msgctxt "leader"
+#~ msgid "ld"
+#~ msgstr "cp"
+
+#~ msgid "Leader"
+#~ msgstr "Chef de projet"
+
+#~ msgid "Leaders list"
+#~ msgstr "Liste des chefs de projet"
+
+#~ msgid "Support zone for Timesheet Validation service"
+#~ msgstr "Zone de support du service Timesheet Validation"
+
+#~ msgid "Support for Timesheet Validation"
+#~ msgstr "Support pour Timesheet Validation"
+
+#~ msgid "individual"
+#~ msgstr "indépendant"
+
+#~ msgid "Renewal"
+#~ msgstr "﻿Renouvellement"
+
+#~ msgid "you cannot access organization details"
+#~ msgstr "vous ne pouvez pas accéder aux détails de cette organisation"
+
+#~ msgid "You are going to delete the work unit."
+#~ msgstr "Vous êtes sur le point de supprimer l'unité de travail."
+
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#~ msgid "About Timesheet Validation"
+#~ msgstr "À propos de Timesheet Validation"
+
+#~ msgid "error creating new organization"
+#~ msgstr "erreur à la création d'une nouvelle organisation"
+
+#~ msgid "organization name must be provided"
+#~ msgstr "le nom d'organisation doit être renseigné"
+
+#~ msgid "Type of account"
+#~ msgstr "Type de compte"
+
+#~ msgid "standard"
+#~ msgstr "standard"
+
+#~ msgid "timesheets validation"
+#~ msgstr "validation de feuilles de temps"
+
+#~ msgid "currently in BETA"
+#~ msgstr "﻿actuellement en BETA"
+
+#~ msgid "contracts validation, timesheets validation, invoices handling"
+#~ msgstr "validation de contrats, validation de feuilles de temps, facturation"
+
+#~ msgid "Payment"
+#~ msgstr "Paiement"
+
+#~ msgid "user is not found"
+#~ msgstr "utilisateur introuvable"
+
+#~ msgid "Organization user companies"
+#~ msgstr "﻿Entreprises d'utilisateur"
+
+#, fuzzy
+#~ msgid "Organization user operation"
+#~ msgstr "Opération sur un utilisateur"
+
+#~ msgid "Client name"
+#~ msgstr "Nom du client"
+
+#~ msgid "Provider name"
+#~ msgstr "Nom du prestataire"
+
+#~ msgid "client has confirmed its name"
+#~ msgstr "le client a confirmé son nom"
+
+#~ msgid "provider has confirmed its name"
+#~ msgstr "le prestataire a confirmé son nom"
+
+#~ msgid "this profile is inactivated, please contact your administrator to reactivate it and then retry"
+#~ msgstr "ce profil utilisateur est désactivé, veuillez contacter l'administrateur pour la réactivation et réessayez ultérieurement"
+
+#~ msgid "cannot find contract owner profile or company"
+#~ msgstr "impossible de trouver le propriétaire du contrat ou sa société"
+
+#~ msgid "cannot find invoice owner profile"
+#~ msgstr "impossible de trouver le propriétaire de la facture"
+
+#, fuzzy
+#~ msgid "wrong captcha provided, reload page"
+#~ msgstr "captcha fourni est incorrect"
+
+#~ msgid "too many login attempts, captcha added"
+#~ msgstr "Nombre de tentatives de connexion trop important, captcha ajouté"
+
+#~ msgid "Registration number"
+#~ msgstr "Nº d'immatriculation"
+
+#~ msgid "VAT Registration No. for companies, SIRET for freelancers"
+#~ msgstr "TVA intra-communautaire pour les sociétés, SIRET pour les auto-intrepreneurs"
+
+#~ msgid "error adding this attribute"
+#~ msgstr "erreur lors de l'ajout d'un nouveau attribut"
+
+#~ msgid "error deleting this attribute"
+#~ msgstr "erreur à la suppression d'attribut"
+
+#~ msgid "Output invoice PDF"
+#~ msgstr "Afficher la facture en PDF"
+
+#~ msgid "Net"
+#~ msgstr "HT"
+
+#~ msgctxt "price per unit"
+#~ msgid "PPU"
+#~ msgstr "PPU"
+
+#~ msgid "The invoice will be unlocked for modification."
+#~ msgstr "modificationLa facture sera déverrouillée pour modification."
+
+#~ msgctxt "timesheet"
+#~ msgid "Upd."
+#~ msgstr "M-à-j"
+
+#~ msgid "VAT, %"
+#~ msgstr "TVA, %"
+
+#~ msgid "Timesheet %s - %s"
+#~ msgstr "Feuille de temps du %s au %s"
+
+#~ msgid "list"
+#~ msgstr "liste"
+
+#~ msgid "cannot find contract record for the invoice"
+#~ msgstr "impossible de trouver le contrat de la facture"
+
+#~ msgid "No work units added from timesheets"
+#~ msgstr "Aucun unité de travail n'est ajouté"
+
+#~ msgctxt "ic"
+#~ msgid "Begins on"
+#~ msgstr "Date début"
+
+#~ msgctxt "ic"
+#~ msgid "Ends on"
+#~ msgstr "Date fin"
+
+#~ msgctxt "tt"
+#~ msgid "Last updated"
+#~ msgstr "Mise-à-jour"
+
+#~ msgctxt "tt"
+#~ msgid "Upd."
+#~ msgstr "M-à-j"
+
+#~ msgctxt "tt"
+#~ msgid "Begins on"
+#~ msgstr "Date début"
+
+#~ msgctxt "tt"
+#~ msgid "Ends on"
+#~ msgstr "Date fin"
+
+#~ msgctxt "tt"
+#~ msgid "Validated"
+#~ msgstr "Validée"
+
+#~ msgid "contract cannot end before it starts"
+#~ msgstr "un contrat ne peut pas terminer avant de commencer"
+
+#~ msgid "invoice cannot end before it starts"
+#~ msgstr "une facture ne peut pas terminer avant de commencer"
+
+#~ msgid "timesheet cannot end before it starts"
+#~ msgstr "une feuille de temps ne peut pas terminer avant de commencer"
+
+#~ msgid "work unit cannot end before it starts"
+#~ msgstr "l'unité ne peut pas terminer avant de commencer"
+
+#~ msgctxt "sss"
+#~ msgid "%u dashboard"
+#~ msgid_plural "%u dashboards"
+#~ msgstr[0] "%u tableau de bord"
+#~ msgstr[1] "%u tableaux de bord"
+
+#~ msgid "details"
+#~ msgstr "détails"
+
+#~ msgid "%s was notified about contract readiness."
+#~ msgstr "%s a été notifié que le contrat est prêt."
+
+#~ msgid "%s was notified about timesheet readiness."
+#~ msgstr "%s a été notifié que la feuille de temps est prête."
+
+#~ msgid "About Contraxor"
+#~ msgstr "À propos de Contraxor"
+
+#~ msgid "Sign in to Contraxor"
+#~ msgstr "Connexion à Contraxor"
+
+#~ msgid "Sign up to Contraxor"
+#~ msgstr "Inscription à Contraxor"
+
+#~ msgid "<p>&lt; &lt; &lt; Page header &gt; &gt; &gt;</p>"
+#~ msgstr "<p>&lt; &lt; &lt; Page header &gt; &gt; &gt;</p>"
+
+#~ msgid "<p>&lt; &lt; &lt; Page footer &gt; &gt; &gt;</p>"
+#~ msgstr "<p>&lt; &lt; &lt; Page footer &gt; &gt; &gt;</p>"
+
+#~ msgid "Welcome page"
+#~ msgstr "Bienvenue"
+
+#~ msgid "Next date"
+#~ msgstr "Prochain envoi"
+
+#, fuzzy
+#~ msgid "%s<br><small>%s, %s</small>"
+#~ msgstr "%s <small>%s, %s</small>"
+
+#~ msgid "error updating contract"
+#~ msgstr "erreur à la mise à jour du CRA"
+
+#~ msgid "%u jan"
+#~ msgstr "%u jan"
+
+#~ msgid "%u feb"
+#~ msgstr "%u fév"
+
+#~ msgid "%u mar"
+#~ msgstr "%u mar"
+
+#~ msgid "%u apr"
+#~ msgstr "%u avr"
+
+#~ msgid "%u mai"
+#~ msgstr "%u mai"
+
+#~ msgid "%u jun"
+#~ msgstr "%u jun"
+
+#~ msgid "%u jul"
+#~ msgstr "%u jul"
+
+#~ msgid "%u aug"
+#~ msgstr "%u aoû"
+
+#~ msgid "%u sep"
+#~ msgstr "%u sep"
+
+#~ msgid "%u oct"
+#~ msgstr "%u oct"
+
+#~ msgid "%u nov"
+#~ msgstr "%u nov"
+
+#, fuzzy
+#~ msgid "this rate is not defined within the contract"
+#~ msgstr "ce forfait n'est pas défini"
+
+#~ msgid "%1$s %2$s"
+#~ msgid_plural "%1$s %3$s"
+#~ msgstr[0] "%1$s %2$s"
+#~ msgstr[1] "%1$s %3$s"
+
+#~ msgid "y."
+#~ msgstr "a."
+
+#~ msgid "m."
+#~ msgstr "m."
+
+#~ msgid "w."
+#~ msgstr "s."
+
+#~ msgid "d."
+#~ msgstr "j."
+
+#~ msgid "h."
+#~ msgstr "h."
+
+#~ msgid "pc."
+#~ msgstr "pc."
+
+#~ msgid "Select actor to notify"
+#~ msgstr "Sélectionnez un acteur à notifier"
+
+#~ msgid "First define an actor with Project leader role"
+#~ msgstr "Veuillez à définir d'abord un acteur avec le rôle Chef de projet"
+
+#, fuzzy
+#~ msgid "Timesheet %s - %s (%s)"
+#~ msgstr "le %s"
+
+#~ msgid "the list of contract consultants and project leaders is defined by contract owner"
+#~ msgstr "la liste des consultants et des chefs de projet du contrat est défini par le propriétaire du contrat"
+
+#~ msgid "provided key does not match requested operation"
+#~ msgstr "la clé fournie ne corresponde pas à l'opération demandée"
+
+#~ msgid "the specified currency is not defined for the company"
+#~ msgstr "la devise spécifiée n'est pas définie dans cette organisation"
+
+#~ msgid "the specified tax is not defined for the company"
+#~ msgstr "la taxe spécifiée n'est pas définie dans cette organisation"
+
+#~ msgid "cannot load the list of currencies"
+#~ msgstr "erreur au chargement de la liste des devises"
+
+#~ msgid "cannot load the list of taxes"
+#~ msgstr "erreur au chargement de la liste des taxes"
+
+#~ msgid "A password restore link was sent to the address %s. See instructions in your inbox."
+#~ msgstr "Le lien de réinitialisation de mot de passe a été envoyé à l'adresse %s. Veuillez suivre les instructions dans votre boîte de réception."
+
+#~ msgid "error sending confirmation email, please resubmit your request"
+#~ msgstr "erreur à l'envoi d'e-mail de confirmation, veuillez renouveler votre requête"
+
+#~ msgid "error creating confirmation email, please resubmit your request"
+#~ msgstr "erreur à la création d'e-mail de confirmation, veuillez renouveler votre requête"
+
+#~ msgid "No schedules defined"
+#~ msgstr "Aucun planning n'est défini"
+
+#~ msgid "you have no role within this contract"
+#~ msgstr "vous ne pouvez pas accéder à ce contrat"
+
+#~ msgid "this contract cannot be modified since it is validated (first unlock the contract)"
+#~ msgstr "ce contrat est validé et ne peut pas être modifié (il faut d'abord le déverrouiller)"
+
+#~ msgid "Add schedule"
+#~ msgstr "Ajouter un planning"
+
+#~ msgid "every %u years starting on %s"
+#~ msgstr "chaque %u années à partir du %s"
+
+#, fuzzy
+#~ msgid "Delet e"
+#~ msgstr "Supprimer"
+
+#, fuzzy
+#~ msgid "D e lete"
+#~ msgstr "Supprimer"
+
+#~ msgid "insert"
+#~ msgstr "insérer"
+
+#~ msgid "delete"
+#~ msgstr "supprimer"
+
+#~ msgid "Open ID"
+#~ msgstr "Open ID"
+
+#~ msgid "%s<br>%s by <b>%s</b>"
+#~ msgstr "%s<br>%s par <b>%s</b>"
+
+#~ msgid "%s<br>by <b>%s</b>"
+#~ msgstr "%s<br>par <b>%s</b>"
+
+#~ msgid "Send comment"
+#~ msgstr "Envoyer un commentaire"
+
+#~ msgid "Messages"
+#~ msgstr "Messages"
+
+#~ msgid "ow"
+#~ msgstr "pr"
+
+#~ msgid "my org"
+#~ msgstr "mon org"
+
+#~ msgid "by %s"
+#~ msgstr "par %s"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "No messages"
+#~ msgstr "Aucun message"
+
+#~ msgid "Role"
+#~ msgstr "Rôle"
+
+#, fuzzy
+#~ msgid "Label of contracts"
+#~ msgstr "Liste de contrats"
+
+#~ msgid "cannot set new username with this key (please renew the original request)"
+#~ msgstr "cette clé ne peut être utilisée pour changer l'identifiant (vous pouvez renouveler la requête d'origine)"
+
+#~ msgid "cannot set new password with this key (please renew the original request)"
+#~ msgstr "erreur au changement du mot de passe avec cette clé, veuillez renouveler votre requête"
+
+#~ msgid "Cannot identify user role. Please contact your administrator."
+#~ msgstr "Impossible de déterminer le rôle d'utilisateur. Veuillez contacter l'administrateur."
+
+#~ msgid "password"
+#~ msgstr "mot de passe"
+
+#~ msgid "Login command"
+#~ msgstr "Commande d'identification"
+
+#~ msgid "Empty required fields"
+#~ msgstr "Champs obligatoires vides"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Submit"
+#~ msgstr "Soumettre"
+
+#~ msgid "Forgotten password"
+#~ msgstr "Mot de passe oublié"
+
+#~ msgid "Provider | Welcome page"
+#~ msgstr "Bienvenue | Prestataire"
+
+#~ msgid "Director"
+#~ msgstr "Directeur"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Cannot connect to the database"
+#~ msgstr "Erreur à la connexion à la base de données"
+
+#~ msgid "e-mail"
+#~ msgstr "e-mail"
+
+#~ msgid "russian"
+#~ msgstr "russe"
+
+#~ msgid "ur:active"
+#~ msgstr "actif"
+
+#~ msgid "Collector"
+#~ msgstr "Collector"
+
+#~ msgid "Tickets"
+#~ msgstr "Tickets"
+
+#~ msgid "Reports"
+#~ msgstr "Rapports"
+
+#~ msgid "Configuration"
+#~ msgstr "Configuration"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Forms"
+#~ msgstr "Formulaires"
+
+#~ msgid "Search"
+#~ msgstr "Recherche"
+
+#~ msgid "Helpdesk"
+#~ msgstr "Helpdesk"
+
+#~ msgid "Login error"
+#~ msgstr "Erreur d'identification"
+
+#~ msgid "Note on collections"
+#~ msgstr "Notice sur les collections"
+
+#~ msgid "The space to handle tickets"
+#~ msgstr "L'espace pour gérer les tickets"
+
+#~ msgid "Create"
+#~ msgstr "Créer"
+
+#~ msgid "Find"
+#~ msgstr "Chercher"
+
+#~ msgid "Helpdesk | Tickets"
+#~ msgstr "Helpdesk | Tickets"
+
+#~ msgid "Login script"
+#~ msgstr "Script de login"
+
+#~ msgid "Logout script"
+#~ msgstr "Script "
+
+#~ msgid "My tickets"
+#~ msgstr "Mes tickets"
+
+#~ msgid "New tickets"
+#~ msgstr "Nouveaux tickets"
+
+#~ msgid "Open tickets"
+#~ msgstr "Tickets ouverts"
+
+#~ msgid "All tickets"
+#~ msgstr "Tous les tickets"
+
+#~ msgid "New ticket"
+#~ msgstr "Nouveau ticket"
+
+#~ msgid "Admin"
+#~ msgstr "Admin"
+
+#~ msgid "Helpdesk welcome page"
+#~ msgstr "Page d'accueil du Helpdesk"
+
+#~ msgid "Form test page"
+#~ msgstr "Page test de Form"
+
+#~ msgid "Stacked form style"
+#~ msgstr "Form type Stacked"
+
+#~ msgid "Single line form style"
+#~ msgstr "Form type Seule ligne"
+
+#~ msgid "Table test page"
+#~ msgstr "Page test de Table"

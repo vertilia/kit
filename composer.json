@@ -1,0 +1,34 @@
+{
+    "name": "vertilia/kit",
+    "description": "Basic toolkit for professional web developer",
+    "keywords": ["vertilia", "kit", "toolkit", "framework", "php"],
+    "homepage": "https://github.com/vertilia/kit",
+    "licence": "BSD-2",
+    "authors": [
+        {
+            "name": "Stas Trefilov",
+            "email": "stas@vertilia.com"
+        }
+    ],
+    "require": {
+        "php": "^7"
+    },
+    "suggest": {
+        "ext-json": "To allow for JSON response generation in JsonResponse class",
+        "ext-mbstring": "To support multibyte handling in Nls class and values escaping in DbEntity class",
+        "ext-mysqli": "To support database operations in Db class",
+        "ext-session": "To handle session in Misc class",
+        "ext-zlib": "To handle blobs in Misc class"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vertilia\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vertilia/kit"
+        }
+    ]
+}
